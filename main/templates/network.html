@@ -1,0 +1,272 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block content %}
+	<h1>{{ title }} | <a class="btn btn-primary" href="{% url 'main:table' result_id %}">Table View</a></h1>
+	<hr>
+<div class="container">
+	<div class="row">
+        <div>
+            <ul>
+                <li>
+                    No. of Virus Proteins: <b>{{ virus_count }}</b>
+                    | No. of Host Proteins: <b>{{ host_count }}</b>
+                    | No. of Interactions: <b>{{ interaction_count }}</b>
+                </li>
+                <li>Right click &amp; hold on nodes for external links (UniProt and NCBI)</li>
+                <li>Hold <b>Ctrl</b> and click on nodes for multi-select</li>
+            </ul>
+        </div>
+	
+		<div id="cy-wrapper" class="col-sm-9">
+			<div id="cy" class="rounded border border-info"></div>
+		</div>
+
+		<div id="cy-toolbar" class="col-sm-3 bg-steel rounded">
+		<h3>
+    		<button class="tablink rounded active" onclick="changeBar(event, 'legend')">Legend</button>
+	    	|<button class="tablink rounded" onclick="changeBar(event, 'filter')">Filter</button>
+		</h3>
+			<hr>
+			<div class="tabcontent container" id="legend">
+    			<small>
+    			<h5>Nodes</h5>
+    			<p><i class="fa fa-circle fa-red"></i>: Pathogen Proteins</p>
+    			<p><i class="fa fa-circle fa-blue"></i>: Host Proteins</p>
+    			<h5>Edges</h5>
+    			{% for strain in strain_colors %}
+    			    {% if strain.color == "#000000" %}
+        				<p class="rounded text-light {{strain.color}}" style="background-color: {{strain.color}}">{{ strain.name }}</p>
+                    {% else %}
+        				<p class="rounded text-dark {{strain.color}}" style="background-color: {{strain.color}}">{{ strain.name }}</p>
+    				{% endif %}
+    			{% endfor %}
+    			</small>
+			</div>
+
+            <div class="tabcontent container start-inactive" id="filter">
+                <!-- strains -->
+                <div class="container">
+                    <label for="strains" class="form-label">Strain Display Toggle</label>
+                    <select multiple size="5" name="strains" id="strains" class="form-control">
+                        {% for strain in strain_colors %}
+                            <option onclick="toggleStrain('{{ strain.name }}')" id="{{ strain.name }}">{{ strain.name }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <!-- virus proteins -->
+                <div class="container">
+                    <label for="nodes" class="form-label">Protein Display Toggle</label>
+                    <select multiple size="5" name="nodes" id="nodes" class="form-control">
+                        {% for n in nodes %}
+                            <option onclick="toggleProtein('{{n.id}}')" id="{{n.id}}_option">{{n.id}}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+
+		</div>
+	</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.20.0/cytoscape.min.js"></script>
+<script src="https://unpkg.com/webcola@3.3.8/WebCola/cola.min.js"></script>
+<script src="https://unpkg.com/cytoscape-cola@2.2.3/cytoscape-cola.js"></script>
+<script src="{% static 'main/cytoscape-cxtmenu.js' %}"></script>
+<script src="{% static 'main/cytoscape-navigator.js' %}"></script>
+
+<script>
+selectedStrains = []
+selectedProteins = []
+function toggleProtein(nodeID) {
+	if (selectedProteins.includes(nodeID)) {
+		selectedProteins = selectedProteins.filter(item => item !== nodeID)
+		if (selectedProteins.length === 0) {
+			cy.nodes().style('visibility', 'visible');
+			cy.edges().style('visibility', 'visible');
+		} else {
+			cy.nodes('#' + nodeID).style('visibility', 'hidden');
+			cy.getElementById(nodeID).neighborhood().edges().forEach(function (edge) {
+				edge.style('visibility', 'hidden');
+			});
+		}
+		document.getElementById(`${nodeID}_option`).style.backgroundColor = "#ffffff";
+	} else if (selectedProteins.length > 0) {
+		selectedProteins.push(nodeID)
+		cy.nodes('#' + nodeID).style('visibility', 'visible');
+		document.getElementById(`${nodeID}_option`).style.backgroundColor = "#5f788a";
+		cy.getElementById(nodeID).neighborhood().edges().forEach(function (edge) {
+			var sourceVisible = edge.source().style('visibility') === 'visible';
+			var targetVisible = edge.target().style('visibility') === 'visible';
+			if (sourceVisible && targetVisible) {
+				edge.style('visibility', 'visible');
+			}
+		});
+	} else {
+		document.getElementById(`${nodeID}_option`).style.backgroundColor = "#5f788a";
+		cy.nodes().not('#' + nodeID).style('visibility', 'hidden');
+		selectedProteins.push(nodeID)
+		cy.edges().style('visibility', 'hidden');
+	}
+}
+
+// function toggleNode(nodeID) {
+//     var node = cy.getElementById(nodeID);
+    
+//     // Get the neighborhood of the selected node
+//     var neighborhood = node.neighborhood();
+    
+//     // Combine the selected node and its neighborhood
+//     var elementsToShow = node.union(neighborhood);
+    
+//     // Toggle visibility for the combined elements
+//     elementsToShow.forEach(function(element){
+//         if (element.style("visibility") === "visible") {
+//             element.style("visibility", "hidden");
+//         } else {
+//             element.style("visibility", "visible");
+//         }
+//     });
+
+//     // Toggle background color for the selected node's option
+//     var optionElement = document.getElementById(`${nodeID}_option`);
+//     optionElement.style.backgroundColor = (node.style("visibility") === "visible") ? "#ffffff" : "#5f788a";
+// }
+
+function toggleStrain(stra) {
+    var edgeList = cy.elements(`edge[strain="${stra}"]`);
+    for (var i = 0; i < edgeList.length; i++) {
+        if (edgeList[i].style("visibility") === "visible") {
+            edgeList[i].style("visibility", "hidden");
+            document.getElementById(stra).style.backgroundColor = "#5f788a";
+        } else {
+            edgeList[i].style("visibility", "visible");
+            document.getElementById(stra).style.backgroundColor = "#ffffff";
+        }
+    }
+}
+
+function changeBar(evt, display) {
+    var i, tabcontent, tablinks;
+
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i=0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    document.getElementById(display).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+var cy = cytoscape({
+	container: document.getElementById("cy"),
+	elements: [
+		{% for n in nodes %}
+			{data: {id: "{{n.id}}", color: "{{n.color}}"}},
+		{% endfor %}
+
+		{% for i in interactions %}
+			{data: {id: "{{i.id}}", source: "{{i.source}}", target: "{{i.target}}", color: "{{i.color}}", strain: "{{i.strain}}"}},
+		{% endfor %}
+	],
+
+	style: [
+			{
+				selector: "node",
+				style:
+					{
+						"background-color": "data(color)", 
+						"label": "data(id)",
+					}
+			},
+
+			{
+				selector: "edge",
+				style:
+				{
+					"width": 1,
+					"line-color": "data(color)",
+					"curve-style": "haystack",
+					"haystack-radius": 0.5,
+					"line-opacity": .6,
+				}
+
+			},
+			{
+				selector: ":selected",
+				style:
+				{
+					"background-color": "black",
+				}
+			}
+		],
+
+        minZoom: 1e-10,
+        maxZoom: 1e10,
+		wheelSensitivity: 0.7,
+
+});
+
+
+var layout = cy.layout({name: "cola", animate: false, fit: true});
+
+layout.run();
+
+//cy minimap
+/*
+var defaults = {
+};
+
+var nav = cy.navigator(defaults);
+*/
+
+cy.cxtmenu({
+	selector: 'node[color="blue"]',
+	commands: [
+		{
+			content: 'NCBI',
+			select: function(ele) {
+				window.open("https://www.ncbi.nlm.nih.gov/search/all/?term=" + ele.id(), "_blank");
+			}
+		},
+		{
+			content: 'GTEx',
+			select: function(ele) {
+				window.open("https://gtexportal.org/home/gene/" + ele.id(), "_blank");
+			}
+		},
+		{
+			content: 'HPA',
+			select: function(ele) {
+				window.open("https://www.proteinatlas.org/search/" + ele.id(), "_blank");
+			}
+		}
+	]
+});
+
+cy.cxtmenu({
+    selector: 'node[color="red"]',
+    commands: [
+        {
+            content: 'UniProt',
+            select: function(ele) {
+                window.open(`https://www.uniprot.org/uniprot/?query=${ele.id()}+AND+organism%3A%22Severe+acute+respiratory+syndrome+coronavirus+2+%282019-nCoV%29+%5B2697049%5D%22&sort=score`, "_blank");
+            }
+        },
+        {
+            content: 'NCBI',
+            select: function(ele) {
+                window.open(`https://www.ncbi.nlm.nih.gov/protein/?term=${ele.id()}+AND+%22Severe+acute+respiratory+syndrome+coronavirus+2%22%5BOrganism%5D`, "_blank");
+            }
+        },
+    ]
+});
+</script>
+{% endblock %}

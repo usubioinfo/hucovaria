@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<h1>{{ title }}</h1>
+	<div class="container">
+        <h4>Home Page: Making a Query</h4>
+        Queries are performed from the 'Home' page which looks like: <p><img src="{% static 'main/hucovaria_home.PNG' %}" class="med-img"></p>
+        <ol>
+            <li>Enter your human proteins. These values must be comma separated. Gene symbols are supported only. Type directly into the box or upload a file with your comma-separated proteins.
+                <p><img src="{% static 'main/hucovaria_home_human_proteins_upload.PNG' %}" class="small-img"></p></li>
+            <li>Select which strains of SARS-CoV-2 to be included in your query. More information on strains can be found at: <a href="https://cov-lineages.org/">Pango Lineages</a>.
+                <p><img src="{% static 'main/hucovaria_home_strains.PNG' %}" class="small-img"></p></li>
+            <li>Select which SARS-CoV-2 proteins to be included in your predicted interactions.
+                <p><img src="{% static 'main/hucovaria_home_covid_proteins.PNG' %}" class="small-img"></p></li>
+            <li>Select which annotation type to be included. More information on each annotation type can be found here:
+                <ul>
+                    <li><a href="https://gtexportal.org/home/" target="_blank" rel="noopener noreferrer">Tissue Expression</a></li>
+                    <li><a href="https://www.proteinatlas.org/">Subcellular Localization</a></li>
+                    <li><a href="https://www.genome.jp/kegg/pathway.html" target="_blank" rel="noopener noreferrer">KEGG Pathway</a></li>
+                    <li><a href="http://geneontology.org/" target="_blank" rel="noopener noreferrer">Gene Ontology</a></li>
+                </ul>
+                <p><img src="{% static 'main/hucovaria_home_annotations.PNG' %}" class="small-img"></p>
+            </li>
+            <li>Select which interaction type:
+            <p>Interolog interactions are based off the interolog approach, involving <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi" target="_blank" rel="noopener noreferrer">NCBI's BLAST</a>, to predicting Host-Pathogen Interactions (HPIs). The interolog databases used can be found at the <a href="{% url 'main:datasets' %}">'Datasets'</a> tab.</p>
+            <p>Domain interactions involve predicting HPIs via the interactions between specific domains, or subunits of proteins. This approach utilizes <a href="http://hmmer.org/" target="_blank" rel="noopener noreferrer">HMMER</a>, and several domain-domain interaction databases, also found under the <a href="{% url 'main:datasets' %}">'Datasets'</a> tab.</p>
+            <p>Combined interactions include both interolog and domain interactions.</p>
+            </li>
+            <li>Click the 'Submit Query' to send in your query. A pop-up window will be displayed and have a link to the table view of your results and an indicator representing the progress of your query.
+                <p><img src="{% static 'main/hucovaria_home_submit.PNG' %}" class="small-img"><img src="{% static 'main/hucovaria_home_modal.PNG' %}" class="small-img"></p></li>
+        </ol>        
+	</div>
+
+	<div class="container">
+        <h4>Table View</h4>
+        <p>The table view displays all of the interaction information in a paginated-table format. Viral gene, host gene, strain, interaction type and annotation information are all displayed in the table. There are two buttons to download the table: one in an excel format and the other in a csv format. There is also a search bar to narrow down entries. Here is a typical table view:</p>
+        <p><img src="{% static 'main/hucovaria_table.PNG' %}" class="med-img"></p>
+        <p>Click the 'To Network View' to display the original interaction information in a network view.</p>
+	</div>
+
+	<div class="container">
+	    <h4>Network View</h4>
+        <p>The network view displays the interaction information as a network utilizing <a href="https://js.cytoscape.org/" target="_blank" rel="noopener noreferrer">Cytoscape.js</a> to create the network. Only the viral and host proteins and SARS-CoV-2 strains are displayed. The proteins are displayed as nodes whereas the strains are displayed as edges. A legend is provided and edges and nodes can be removed as well. Right clicking and holding on a node gives options to access more information about that protein. Here is a typical network view: </p>
+        <p><img src="{% static 'main/hucovaria_network.PNG' %}" class="med-img"></p>
+        <p>Here is a snapshot of the menu provided when right-clicking and holding on a node:</p>
+        <p><img src="{% static 'main/hucovaria_network_menu.PNG' %}" class="small-img"></p>
+	</div>
+{% endblock content %}

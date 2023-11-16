@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<h1>{{ title }}</h1>
+	<hr>
+
+<div class="container">
+    {% for result in results %}
+        <div class="card">
+        	<div class="card-body">
+        		<h5 class="card-title">{{ result.name }}</h5>
+        		<h6 class="card-subtitle mb-2 text-muted">{{ result.id }}</h6>
+        		<p class="sub-text"><a href="{% url 'main:table' result.id %}">Table View</a>|<a href="{%url 'main:network' result.id %}">Network View</a></p>
+        	</div>
+        </div>
+    {% empty %}
+        <div class="container">
+            <h5>Sorry, no results at this time. Check back in a little if you recently submitted a query or return to the home tab to submit a query</h5>
+        </div>
+    {% endfor %}
+</div>
+
+{% endblock content %}

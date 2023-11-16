@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<h1>{{ title }} | <a class="btn btn-primary" href="{% url 'main:network' result_id %}">To Network View</a></h1>
+<hr>
+
+<div id="loading">
+    <i class="fa fa-spinner large center"></i>
+</div>
+
+<div class="container">
+	<div id="table-wrapper" hidden>
+		<table class="display" id="table">
+			<thead>
+				<tr>
+					<th scope="col">#</th>
+					<th scope="col">Human Gene</th>
+					<th scope="col">Virus Gene</th>
+					
+					<th scope="col">Strain</th>
+					<th scope="col">Interaction Type</th>
+					<th scope="col">{{ annotation.pprint }}</th>
+					{% if annotation.annotation == "Gene Ontology" %}
+					<th scope="col">Ontology Type</th>
+					<th scope="col">Ontology Description</th>
+					{% elif annotation.annotation == "KEGG" %}
+					<th scope="col">Pathway Description</th>
+					{% endif %}
+				</tr>
+			</thead>
+			<tbody id="table-body">
+				{% for line in query %}
+						<tr>
+						<th scope="row">{{ forloop.counter }}</th>
+						
+						<td><a href="https://www.ncbi.nlm.nih.gov/search/all/?term={{ line.host }}" target="_blank" rel="noopener noreferrer">{{ line.host }}</a></td>
+						<td>{{ line.virus }}</td>
+						<td>{{ line.strain }}</td>
+						<td>{{ line.interaction }}</td>
+					{% if annotation.annotation == "KEGG" %}
+						<td><a href="https://www.genome.jp/pathway/{{ line.KEGG }}" target="_blank" rel="noopener noreferrer">{{ line.KEGG }}</a></td>
+						<td>{{ line.KEGG_Description }}</td>
+					{% elif annotation.annotation == "Gene Ontology" %}
+						<td><a href="http://amigo.geneontology.org/amigo/term/{{line.GO}}" target="_blank" rel="noopener noreferrer">{{ line.GO }}</a></td>
+						<td>{{ line.GO_Type }}</td>
+						<td>{{ line.GO_Description }}</td>
+					{% elif annotation.annotation == "localization" %}
+						<td>{{ line.localization }}</td>
+					{% elif annotation.annotation == "tissue_expression" %}
+						<td><a href="https://gtexportal.org/home/gene/{{ line.host }}" target="_blank" rel="noopener noreferrer">{{ line.tissue_expression }}</a></td>
+					{% endif %}
+				</tr>
+				{% endfor %}
+				
+			</tbody>
+		</table>
+	</div>
+</div>
+
+<script>
+
+var table = $("#table").DataTable({
+    dom: "Bfrtip",
+    buttons: ["excel", "csv"]
+});
+
+document.getElementById("loading").hidden = true;
+document.getElementById("table-wrapper").hidden = false;
+
+</script>
+
+{% endblock content %}

@@ -1,0 +1,2190 @@
+gene,name,description
+ATP1B1,hsa04260,Cardiac muscle contraction
+ATP1B1,hsa04974,Protein digestion and absorption
+ATP1B1,hsa04978,Mineral absorption
+ATP1B1,hsa04964,Proximal tubule bicarbonate reclamation
+ATP1B1,hsa04918,Thyroid hormone synthesis
+ATP1B1,hsa04925,Aldosterone synthesis and secretion
+ATP1B1,hsa04961,Endocrine and other factor-regulated calcium reabsorption
+ATP1B1,hsa04960,Aldosterone-regulated sodium reabsorption
+ATP1B1,hsa04970,Salivary secretion
+ATP1B1,hsa04973,Carbohydrate digestion and absorption
+ATP1B1,hsa04911,Insulin secretion
+ATP1B1,hsa04919,Thyroid hormone signaling pathway
+ATP1B1,hsa04971,Gastric acid secretion
+ATP1B1,hsa04976,Bile secretion
+ATP1B1,hsa04972,Pancreatic secretion
+ATP1B1,hsa04022,cGMP-PKG signaling pathway
+ATP1B1,hsa04261,Adrenergic signaling in cardiomyocytes
+ATP1B1,hsa04024,cAMP signaling pathway
+ATP6V1A,hsa00190,Oxidative phosphorylation
+ATP6V1A,hsa04145,Phagosome
+ATP6V1A,hsa05110,Vibrio cholerae infection
+ATP6V1A,hsa04150,mTOR signaling pathway
+ATP6V1A,hsa04966,Collecting duct acid secretion
+ATP6V1A,hsa05120,Epithelial cell signaling in Helicobacter pylori infection
+ATP6V1A,hsa04721,Synaptic vesicle cycle
+ATP6V1A,hsa05323,Rheumatoid arthritis
+ATP6V1A,hsa05165,Human papillomavirus infection
+PSMD8,hsa05020,Prion disease
+PSMD8,hsa05014,Amyotrophic lateral sclerosis
+PSMD8,hsa05012,Parkinson disease
+PSMD8,hsa05016,Huntington disease
+PSMD8,hsa05022,Pathways of neurodegeneration - multiple diseases
+PSMD8,hsa05010,Alzheimer disease
+PSMD8,hsa03050,Proteasome
+PSMD8,hsa05017,Spinocerebellar ataxia
+PSMD8,hsa05169,Epstein-Barr virus infection
+CSNK2B,hsa05020,Prion disease
+CSNK2B,hsa03008,Ribosome biogenesis in eukaryotes
+CSNK2B,hsa05022,Pathways of neurodegeneration - multiple diseases
+CSNK2B,hsa05010,Alzheimer disease
+CSNK2B,hsa04137,Mitophagy - animal
+CSNK2B,hsa05162,Measles
+CSNK2B,hsa04310,Wnt signaling pathway
+CSNK2B,hsa04520,Adherens junction
+CSNK2B,hsa04064,NF-kappa B signaling pathway
+CSNK2B,hsa05235,PD-L1 expression and PD-1 checkpoint pathway in cancer
+PRIM1,hsa03030,DNA replication
+PKP2,hsa05412,Arrhythmogenic right ventricular cardiomyopathy
+AP2M1,hsa05016,Huntington disease
+AP2M1,hsa04721,Synaptic vesicle cycle
+AP2M1,hsa04961,Endocrine and other factor-regulated calcium reabsorption
+AP2M1,hsa04144,Endocytosis
+GLA,hsa04142,Lysosome
+GLA,hsa00600,Sphingolipid metabolism
+GLA,hsa00052,Galactose metabolism
+GLA,hsa00603,Glycosphingolipid biosynthesis - globo and isoglobo series
+GLA,hsa00561,Glycerolipid metabolism
+SLC27A2,hsa04146,Peroxisome
+SLC27A2,hsa03320,PPAR signaling pathway
+SLC27A2,hsa04931,Insulin resistance
+EIF4E2,hsa04150,mTOR signaling pathway
+EIF4E2,hsa04211,Longevity regulating pathway
+EIF4E2,hsa04066,HIF-1 signaling pathway
+EIF4E2,hsa01521,EGFR tyrosine kinase inhibitor resistance
+EIF4E2,hsa04910,Insulin signaling pathway
+EIF4E2,hsa04151,PI3K-Akt signaling pathway
+ALG11,hsa00510,N-Glycan biosynthesis
+ALG11,hsa00513,Various types of N-glycan biosynthesis
+ATP5MG,hsa00190,Oxidative phosphorylation
+ATP5MG,hsa04714,Thermogenesis
+RAB7A,hsa04145,Phagosome
+RAB7A,hsa04137,Mitophagy - animal
+RAB7A,hsa05132,Salmonella infection
+RAB7A,hsa04140,Autophagy - animal
+RAB7A,hsa05152,Tuberculosis
+RAB7A,hsa05146,Amoebiasis
+RAB7A,hsa04144,Endocytosis
+RAB14,hsa04152,AMPK signaling pathway
+GNG5,hsa04723,Retrograde endocannabinoid signaling
+GNG5,hsa05170,Human immunodeficiency virus 1 infection
+GNG5,hsa04727,GABAergic synapse
+GNG5,hsa05163,Human cytomegalovirus infection
+GNG5,hsa04371,Apelin signaling pathway
+GNG5,hsa04926,Relaxin signaling pathway
+GNG5,hsa04151,PI3K-Akt signaling pathway
+GNG5,hsa05167,Kaposi sarcoma-associated herpesvirus infection
+GNG5,hsa04713,Circadian entrainment
+GNG5,hsa04728,Dopaminergic synapse
+GNG5,hsa04724,Glutamatergic synapse
+GNG5,hsa04062,Chemokine signaling pathway
+GNG5,hsa05032,Morphine addiction
+GNG5,hsa04725,Cholinergic synapse
+GNG5,hsa04726,Serotonergic synapse
+GNG5,hsa05034,Alcoholism
+GNG5,hsa04014,Ras signaling pathway
+LMAN2,hsa04141,Protein processing in endoplasmic reticulum
+MOGS,hsa04141,Protein processing in endoplasmic reticulum
+MOGS,hsa00510,N-Glycan biosynthesis
+HS2ST1,hsa00534,Glycosaminoglycan biosynthesis - heparan sulfate / heparin
+NDUFAF2,hsa04714,Thermogenesis
+SCARB1,hsa04145,Phagosome
+SCARB1,hsa04979,Cholesterol metabolism
+SCARB1,hsa04975,Fat digestion and absorption
+SCARB1,hsa04977,Vitamin digestion and absorption
+SCARB1,hsa04925,Aldosterone synthesis and secretion
+SCARB1,hsa05160,Hepatitis C
+SCARB1,hsa04913,Ovarian steroidogenesis
+SCARB1,hsa04927,Cortisol synthesis and secretion
+SCARB1,hsa04976,Bile secretion
+SCARB1,hsa04934,Cushing syndrome
+MPHOSPH10,hsa03008,Ribosome biogenesis in eukaryotes
+SRP19,hsa03060,Protein export
+EXOSC5,hsa03018,RNA degradation
+EXOSC3,hsa03018,RNA degradation
+MRPS2,hsa03010,Ribosome
+MRPS5,hsa03010,Ribosome
+NUP214,hsa05014,Amyotrophic lateral sclerosis
+NUP214,hsa03013,Nucleocytoplasmic transport
+RBX1,hsa04141,Protein processing in endoplasmic reticulum
+RBX1,hsa04110,Cell cycle
+RBX1,hsa03420,Nucleotide excision repair
+RBX1,hsa04114,Oocyte meiosis
+RBX1,hsa04350,TGF-beta signaling pathway
+RBX1,hsa05211,Renal cell carcinoma
+RBX1,hsa04710,Circadian rhythm
+RBX1,hsa04310,Wnt signaling pathway
+RBX1,hsa05170,Human immunodeficiency virus 1 infection
+RBX1,hsa04120,Ubiquitin mediated proteolysis
+RBX1,hsa04066,HIF-1 signaling pathway
+RBX1,hsa05131,Shigellosis
+HMOX1,hsa05208,Chemical carcinogenesis - reactive oxygen species
+HMOX1,hsa05418,Fluid shear stress and atherosclerosis
+HMOX1,hsa04978,Mineral absorption
+HMOX1,hsa05206,MicroRNAs in cancer
+HMOX1,hsa04216,Ferroptosis
+HMOX1,hsa00860,Porphyrin and chlorophyll metabolism
+HMOX1,hsa04066,HIF-1 signaling pathway
+HMOX1,hsa05225,Hepatocellular carcinoma
+ALG5,hsa00510,N-Glycan biosynthesis
+COL6A1,hsa04974,Protein digestion and absorption
+COL6A1,hsa04512,ECM-receptor interaction
+COL6A1,hsa04510,Focal adhesion
+COL6A1,hsa05165,Human papillomavirus infection
+COL6A1,hsa04151,PI3K-Akt signaling pathway
+PVR,hsa04514,Cell adhesion molecules
+DNMT1,hsa05206,MicroRNAs in cancer
+DNMT1,hsa00270,Cysteine and methionine metabolism
+INHBE,hsa04350,TGF-beta signaling pathway
+INHBE,hsa04060,Cytokine-cytokine receptor interaction
+INHBE,hsa04550,Signaling pathways regulating pluripotency of stem cells
+NPC2,hsa04142,Lysosome
+NPC2,hsa04979,Cholesterol metabolism
+IL17RA,hsa04657,IL-17 signaling pathway
+IL17RA,hsa04936,Alcoholic liver disease
+IL17RA,hsa04060,Cytokine-cytokine receptor interaction
+NEU1,hsa04142,Lysosome
+NEU1,hsa00511,Other glycan degradation
+NEU1,hsa00600,Sphingolipid metabolism
+CHPF2,hsa00532,Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate
+ACE2,hsa05171,Coronavirus disease - COVID-19
+ACE2,hsa04974,Protein digestion and absorption
+ACE2,hsa04614,Renin-angiotensin system
+TPSB2,hsa05164,Influenza A
+PSMA2,hsa05020,Prion disease
+PSMA2,hsa05014,Amyotrophic lateral sclerosis
+PSMA2,hsa05012,Parkinson disease
+PSMA2,hsa05016,Huntington disease
+PSMA2,hsa05022,Pathways of neurodegeneration - multiple diseases
+PSMA2,hsa05010,Alzheimer disease
+PSMA2,hsa03050,Proteasome
+PSMA2,hsa05017,Spinocerebellar ataxia
+VKORC1,hsa00130,Ubiquinone and other terpenoid-quinone biosynthesis
+VKORC1,hsa01240,Biosynthesis of cofactors
+RPS20,hsa03010,Ribosome
+RPS20,hsa05171,Coronavirus disease - COVID-19
+NMB,hsa04080,Neuroactive ligand-receptor interaction
+EIF4B,hsa04150,mTOR signaling pathway
+EIF4B,hsa05205,Proteoglycans in cancer
+EIF4B,hsa04151,PI3K-Akt signaling pathway
+RPS17,hsa03010,Ribosome
+RPS17,hsa05171,Coronavirus disease - COVID-19
+CCND1,hsa04110,Cell cycle
+CCND1,hsa05162,Measles
+CCND1,hsa04218,Cellular senescence
+CCND1,hsa04115,p53 signaling pathway
+CCND1,hsa05169,Epstein-Barr virus infection
+CCND1,hsa05216,Thyroid cancer
+CCND1,hsa05222,Small cell lung cancer
+CCND1,hsa05210,Colorectal cancer
+CCND1,hsa05206,MicroRNAs in cancer
+CCND1,hsa05416,Viral myocarditis
+CCND1,hsa05166,Human T-cell leukemia virus 1 infection
+CCND1,hsa04310,Wnt signaling pathway
+CCND1,hsa04510,Focal adhesion
+CCND1,hsa04068,FoxO signaling pathway
+CCND1,hsa04152,AMPK signaling pathway
+CCND1,hsa04340,Hedgehog signaling pathway
+CCND1,hsa05219,Bladder cancer
+CCND1,hsa05212,Pancreatic cancer
+CCND1,hsa05220,Chronic myeloid leukemia
+CCND1,hsa05160,Hepatitis C
+CCND1,hsa05221,Acute myeloid leukemia
+CCND1,hsa04530,Tight junction
+CCND1,hsa04919,Thyroid hormone signaling pathway
+CCND1,hsa04390,Hippo signaling pathway
+CCND1,hsa05165,Human papillomavirus infection
+CCND1,hsa05163,Human cytomegalovirus infection
+CCND1,hsa05224,Breast cancer
+CCND1,hsa05213,Endometrial cancer
+CCND1,hsa01522,Endocrine resistance
+CCND1,hsa04933,AGE-RAGE signaling pathway in diabetic complications
+CCND1,hsa04371,Apelin signaling pathway
+CCND1,hsa05205,Proteoglycans in cancer
+CCND1,hsa05225,Hepatocellular carcinoma
+CCND1,hsa05218,Melanoma
+CCND1,hsa05215,Prostate cancer
+CCND1,hsa05214,Glioma
+CCND1,hsa05207,Chemical carcinogenesis - receptor activation
+CCND1,hsa04936,Alcoholic liver disease
+CCND1,hsa05226,Gastric cancer
+CCND1,hsa04151,PI3K-Akt signaling pathway
+CCND1,hsa04921,Oxytocin signaling pathway
+CCND1,hsa05167,Kaposi sarcoma-associated herpesvirus infection
+CCND1,hsa04934,Cushing syndrome
+CCND1,hsa05203,Viral carcinogenesis
+CCND1,hsa04917,Prolactin signaling pathway
+CCND1,hsa05223,Non-small cell lung cancer
+CCND1,hsa04630,JAK-STAT signaling pathway
+CCNA2,hsa04110,Cell cycle
+CCNA2,hsa04218,Cellular senescence
+CCNA2,hsa05169,Epstein-Barr virus infection
+CCNA2,hsa04914,Progesterone-mediated oocyte maturation
+CCNA2,hsa05166,Human T-cell leukemia virus 1 infection
+CCNA2,hsa05161,Hepatitis B
+CCNA2,hsa04152,AMPK signaling pathway
+CCNA2,hsa05221,Acute myeloid leukemia
+CCNA2,hsa05165,Human papillomavirus infection
+CCNA2,hsa05203,Viral carcinogenesis
+CCNA2,hsa05202,Transcriptional misregulation in cancer
+TRIM25,hsa05164,Influenza A
+TRIM25,hsa04622,RIG-I-like receptor signaling pathway
+TRIM25,hsa04064,NF-kappa B signaling pathway
+ND4L,hsa00190,Oxidative phosphorylation
+ND4L,hsa05020,Prion disease
+ND4L,hsa05014,Amyotrophic lateral sclerosis
+ND4L,hsa05012,Parkinson disease
+ND4L,hsa05016,Huntington disease
+ND4L,hsa05208,Chemical carcinogenesis - reactive oxygen species
+ND4L,hsa04714,Thermogenesis
+ND4L,hsa05022,Pathways of neurodegeneration - multiple diseases
+ND4L,hsa05415,Diabetic cardiomyopathy
+ND4L,hsa05010,Alzheimer disease
+ND4L,hsa04723,Retrograde endocannabinoid signaling
+COX2,hsa00190,Oxidative phosphorylation
+COX2,hsa05020,Prion disease
+COX2,hsa05014,Amyotrophic lateral sclerosis
+COX2,hsa05012,Parkinson disease
+COX2,hsa05016,Huntington disease
+COX2,hsa05208,Chemical carcinogenesis - reactive oxygen species
+COX2,hsa04714,Thermogenesis
+COX2,hsa05022,Pathways of neurodegeneration - multiple diseases
+COX2,hsa05415,Diabetic cardiomyopathy
+COX2,hsa05010,Alzheimer disease
+COX2,hsa04932,Non-alcoholic fatty liver disease
+COX2,hsa04260,Cardiac muscle contraction
+ATP6V1G2,hsa00190,Oxidative phosphorylation
+ATP6V1G2,hsa04145,Phagosome
+ATP6V1G2,hsa05110,Vibrio cholerae infection
+ATP6V1G2,hsa04150,mTOR signaling pathway
+ATP6V1G2,hsa04966,Collecting duct acid secretion
+ATP6V1G2,hsa05120,Epithelial cell signaling in Helicobacter pylori infection
+ATP6V1G2,hsa04721,Synaptic vesicle cycle
+ATP6V1G2,hsa05323,Rheumatoid arthritis
+ATP6V1G2,hsa05165,Human papillomavirus infection
+UBC,hsa05012,Parkinson disease
+UBC,hsa05022,Pathways of neurodegeneration - multiple diseases
+UBC,hsa04137,Mitophagy - animal
+UBC,hsa04120,Ubiquitin mediated proteolysis
+UBC,hsa03320,PPAR signaling pathway
+UBC,hsa05131,Shigellosis
+UBC,hsa05167,Kaposi sarcoma-associated herpesvirus infection
+DDX58,hsa05171,Coronavirus disease - COVID-19
+DDX58,hsa05162,Measles
+DDX58,hsa04623,Cytosolic DNA-sensing pathway
+DDX58,hsa05164,Influenza A
+DDX58,hsa04622,RIG-I-like receptor signaling pathway
+DDX58,hsa05169,Epstein-Barr virus infection
+DDX58,hsa05161,Hepatitis B
+DDX58,hsa05160,Hepatitis C
+DDX58,hsa04064,NF-kappa B signaling pathway
+DDX58,hsa05168,Herpes simplex virus 1 infection
+ACTC1,hsa04260,Cardiac muscle contraction
+ACTC1,hsa05410,Hypertrophic cardiomyopathy
+ACTC1,hsa05414,Dilated cardiomyopathy
+ACTC1,hsa04261,Adrenergic signaling in cardiomyocytes
+ISG15,hsa05171,Coronavirus disease - COVID-19
+ISG15,hsa04622,RIG-I-like receptor signaling pathway
+ISG15,hsa05169,Epstein-Barr virus infection
+ISG15,hsa05165,Human papillomavirus infection
+CD209,hsa04145,Phagosome
+CD209,hsa05162,Measles
+CD209,hsa05152,Tuberculosis
+CD209,hsa04625,C-type lectin receptor signaling pathway
+UFD1,hsa04141,Protein processing in endoplasmic reticulum
+C5,hsa05171,Coronavirus disease - COVID-19
+C5,hsa05020,Prion disease
+C5,hsa05133,Pertussis
+C5,hsa04610,Complement and coagulation cascades
+C5,hsa05150,Staphylococcus aureus infection
+C5,hsa04936,Alcoholic liver disease
+C5,hsa05322,Systemic lupus erythematosus
+C5,hsa04613,Neutrophil extracellular trap formation
+C5,hsa05168,Herpes simplex virus 1 infection
+C5,hsa04080,Neuroactive ligand-receptor interaction
+CAV2,hsa05020,Prion disease
+CAV2,hsa05418,Fluid shear stress and atherosclerosis
+CAV2,hsa05100,Bacterial invasion of epithelial cells
+CAV2,hsa04510,Focal adhesion
+CAV2,hsa04144,Endocytosis
+CAV2,hsa05205,Proteoglycans in cancer
+ALG6,hsa00510,N-Glycan biosynthesis
+MARCKS,hsa05206,MicroRNAs in cancer
+MARCKS,hsa04666,Fc gamma R-mediated phagocytosis
+HSPA9,hsa03018,RNA degradation
+HSPA9,hsa05152,Tuberculosis
+RAD23B,hsa04141,Protein processing in endoplasmic reticulum
+RAD23B,hsa03420,Nucleotide excision repair
+BAG4,hsa04668,TNF signaling pathway
+TAF4,hsa05016,Huntington disease
+TAF4,hsa03022,Basal transcription factors
+FSCN1,hsa05206,MicroRNAs in cancer
+TAX1BP1,hsa04137,Mitophagy - animal
+B4GALT1,hsa00510,N-Glycan biosynthesis
+B4GALT1,hsa00513,Various types of N-glycan biosynthesis
+B4GALT1,hsa00515,Mannose type O-glycan biosynthesis
+B4GALT1,hsa00533,Glycosaminoglycan biosynthesis - keratan sulfate
+B4GALT1,hsa00052,Galactose metabolism
+B4GALT1,hsa00514,Other types of O-glycan biosynthesis
+B4GALT1,hsa00601,Glycosphingolipid biosynthesis - lacto and neolacto series
+STUB1,hsa04141,Protein processing in endoplasmic reticulum
+STUB1,hsa04120,Ubiquitin mediated proteolysis
+TNFSF9,hsa04060,Cytokine-cytokine receptor interaction
+STX12,hsa04145,Phagosome
+TNFRSF10A,hsa04115,p53 signaling pathway
+TNFRSF10A,hsa05164,Influenza A
+TNFRSF10A,hsa04210,Apoptosis
+TNFRSF10A,hsa05132,Salmonella infection
+TNFRSF10A,hsa05417,Lipid and atherosclerosis
+TNFRSF10A,hsa04061,Viral protein interaction with cytokine and cytokine receptor
+TNFRSF10A,hsa05130,Pathogenic Escherichia coli infection
+TNFRSF10A,hsa04060,Cytokine-cytokine receptor interaction
+TNFRSF10A,hsa04217,Necroptosis
+TNFRSF10A,hsa04650,Natural killer cell mediated cytotoxicity
+NSF,hsa04962,Vasopressin-regulated water reabsorption
+NSF,hsa04721,Synaptic vesicle cycle
+NSF,hsa04727,GABAergic synapse
+NUP188,hsa05014,Amyotrophic lateral sclerosis
+NUP188,hsa03013,Nucleocytoplasmic transport
+NUP205,hsa05014,Amyotrophic lateral sclerosis
+NUP205,hsa03013,Nucleocytoplasmic transport
+XPO5,hsa03013,Nucleocytoplasmic transport
+PRKDC,hsa04110,Cell cycle
+PRKDC,hsa03450,Non-homologous end-joining
+VAMP4,hsa04130,SNARE interactions in vesicular transport
+VAMP3,hsa04145,Phagosome
+VAMP3,hsa04130,SNARE interactions in vesicular transport
+LMAN1,hsa04141,Protein processing in endoplasmic reticulum
+DAD1,hsa04141,Protein processing in endoplasmic reticulum
+DAD1,hsa00510,N-Glycan biosynthesis
+DAD1,hsa00513,Various types of N-glycan biosynthesis
+ZMPSTE24,hsa00900,Terpenoid backbone biosynthesis
+BNIP3L,hsa04137,Mitophagy - animal
+LAPTM4A,hsa04142,Lysosome
+VTI1A,hsa04130,SNARE interactions in vesicular transport
+CD38,hsa00760,Nicotinate and nicotinamide metabolism
+CD38,hsa04970,Salivary secretion
+CD38,hsa04640,Hematopoietic cell lineage
+CD38,hsa04972,Pancreatic secretion
+CD38,hsa04921,Oxytocin signaling pathway
+CD38,hsa04020,Calcium signaling pathway
+CYP2S1,hsa00830,Retinol metabolism
+CYP2S1,hsa00980,Metabolism of xenobiotics by cytochrome P450
+S1PR3,hsa04071,Sphingolipid signaling pathway
+S1PR3,hsa04080,Neuroactive ligand-receptor interaction
+CD99,hsa04514,Cell adhesion molecules
+CD99,hsa04670,Leukocyte transendothelial migration
+IGF2R,hsa04142,Lysosome
+IGF2R,hsa04144,Endocytosis
+CD70,hsa04060,Cytokine-cytokine receptor interaction
+TNFSF15,hsa04060,Cytokine-cytokine receptor interaction
+CHST14,hsa00532,Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate
+SLC30A1,hsa04978,Mineral absorption
+B3GALT6,hsa00532,Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate
+B3GALT6,hsa00534,Glycosaminoglycan biosynthesis - heparan sulfate / heparin
+EFNB1,hsa04360,Axon guidance
+ABHD5,hsa04923,Regulation of lipolysis in adipocytes
+PEX13,hsa04146,Peroxisome
+B4GAT1,hsa00515,Mannose type O-glycan biosynthesis
+ND4,hsa00190,Oxidative phosphorylation
+ND4,hsa05020,Prion disease
+ND4,hsa05014,Amyotrophic lateral sclerosis
+ND4,hsa05012,Parkinson disease
+ND4,hsa05016,Huntington disease
+ND4,hsa05208,Chemical carcinogenesis - reactive oxygen species
+ND4,hsa04714,Thermogenesis
+ND4,hsa05022,Pathways of neurodegeneration - multiple diseases
+ND4,hsa05415,Diabetic cardiomyopathy
+ND4,hsa05010,Alzheimer disease
+ND4,hsa04723,Retrograde endocannabinoid signaling
+SEC61B,hsa04141,Protein processing in endoplasmic reticulum
+SEC61B,hsa03060,Protein export
+SEC61B,hsa04145,Phagosome
+SEC61B,hsa05110,Vibrio cholerae infection
+VKORC1L1,hsa00130,Ubiquinone and other terpenoid-quinone biosynthesis
+VKORC1L1,hsa01240,Biosynthesis of cofactors
+CKAP4,hsa04141,Protein processing in endoplasmic reticulum
+BET1,hsa04130,SNARE interactions in vesicular transport
+EXT1,hsa00534,Glycosaminoglycan biosynthesis - heparan sulfate / heparin
+B3GAT3,hsa00532,Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate
+B3GAT3,hsa00534,Glycosaminoglycan biosynthesis - heparan sulfate / heparin
+SGCB,hsa05412,Arrhythmogenic right ventricular cardiomyopathy
+SGCB,hsa05416,Viral myocarditis
+SGCB,hsa05410,Hypertrophic cardiomyopathy
+SGCB,hsa05414,Dilated cardiomyopathy
+MAVS,hsa05171,Coronavirus disease - COVID-19
+MAVS,hsa05162,Measles
+MAVS,hsa04623,Cytosolic DNA-sensing pathway
+MAVS,hsa05164,Influenza A
+MAVS,hsa04622,RIG-I-like receptor signaling pathway
+MAVS,hsa05169,Epstein-Barr virus infection
+MAVS,hsa05161,Hepatitis B
+MAVS,hsa05160,Hepatitis C
+MAVS,hsa04621,NOD-like receptor signaling pathway
+MAVS,hsa05168,Herpes simplex virus 1 infection
+VTI1B,hsa04130,SNARE interactions in vesicular transport
+NTS,hsa04080,Neuroactive ligand-receptor interaction
+STIP1,hsa05020,Prion disease
+CS,hsa00020,Citrate cycle (TCA cycle)
+CS,hsa01200,Carbon metabolism
+CS,hsa00630,Glyoxylate and dicarboxylate metabolism
+CS,hsa01230,Biosynthesis of amino acids
+CS,hsa01210,2-Oxocarboxylic acid metabolism
+NFE2L2,hsa04141,Protein processing in endoplasmic reticulum
+NFE2L2,hsa05012,Parkinson disease
+NFE2L2,hsa05208,Chemical carcinogenesis - reactive oxygen species
+NFE2L2,hsa05418,Fluid shear stress and atherosclerosis
+NFE2L2,hsa05417,Lipid and atherosclerosis
+NFE2L2,hsa05225,Hepatocellular carcinoma
+PPA2,hsa00190,Oxidative phosphorylation
+MED24,hsa04919,Thyroid hormone signaling pathway
+PIGT,hsa00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
+HARS2,hsa00970,Aminoacyl-tRNA biosynthesis
+PYCR3,hsa01230,Biosynthesis of amino acids
+PYCR3,hsa00330,Arginine and proline metabolism
+ECI1,hsa00071,Fatty acid degradation
+GPR37,hsa05012,Parkinson disease
+GPR37,hsa05022,Pathways of neurodegeneration - multiple diseases
+ACADSB,hsa00071,Fatty acid degradation
+ACADSB,hsa01212,Fatty acid metabolism
+ACADSB,hsa00280,"Valine, leucine and isoleucine degradation"
+NDUFS8,hsa00190,Oxidative phosphorylation
+NDUFS8,hsa05020,Prion disease
+NDUFS8,hsa05014,Amyotrophic lateral sclerosis
+NDUFS8,hsa05012,Parkinson disease
+NDUFS8,hsa05016,Huntington disease
+NDUFS8,hsa05208,Chemical carcinogenesis - reactive oxygen species
+NDUFS8,hsa04714,Thermogenesis
+NDUFS8,hsa05022,Pathways of neurodegeneration - multiple diseases
+NDUFS8,hsa05415,Diabetic cardiomyopathy
+NDUFS8,hsa05010,Alzheimer disease
+NDUFS8,hsa04932,Non-alcoholic fatty liver disease
+NDUFS8,hsa04723,Retrograde endocannabinoid signaling
+DNAJB2,hsa04141,Protein processing in endoplasmic reticulum
+FANCG,hsa03460,Fanconi anemia pathway
+ATP5F1E,hsa00190,Oxidative phosphorylation
+ATP5F1E,hsa05020,Prion disease
+ATP5F1E,hsa05014,Amyotrophic lateral sclerosis
+ATP5F1E,hsa05012,Parkinson disease
+ATP5F1E,hsa05016,Huntington disease
+ATP5F1E,hsa05208,Chemical carcinogenesis - reactive oxygen species
+ATP5F1E,hsa04714,Thermogenesis
+ATP5F1E,hsa05022,Pathways of neurodegeneration - multiple diseases
+ATP5F1E,hsa05415,Diabetic cardiomyopathy
+ATP5F1E,hsa05010,Alzheimer disease
+ATP5F1B,hsa00190,Oxidative phosphorylation
+ATP5F1B,hsa05020,Prion disease
+ATP5F1B,hsa05014,Amyotrophic lateral sclerosis
+ATP5F1B,hsa05012,Parkinson disease
+ATP5F1B,hsa05016,Huntington disease
+ATP5F1B,hsa05208,Chemical carcinogenesis - reactive oxygen species
+ATP5F1B,hsa04714,Thermogenesis
+ATP5F1B,hsa05022,Pathways of neurodegeneration - multiple diseases
+ATP5F1B,hsa05415,Diabetic cardiomyopathy
+ATP5F1B,hsa05010,Alzheimer disease
+ATP6,hsa00190,Oxidative phosphorylation
+ATP6,hsa05020,Prion disease
+ATP6,hsa05014,Amyotrophic lateral sclerosis
+ATP6,hsa05012,Parkinson disease
+ATP6,hsa05016,Huntington disease
+ATP6,hsa05208,Chemical carcinogenesis - reactive oxygen species
+ATP6,hsa04714,Thermogenesis
+ATP6,hsa05022,Pathways of neurodegeneration - multiple diseases
+ATP6,hsa05415,Diabetic cardiomyopathy
+ATP6,hsa05010,Alzheimer disease
+HLA-DMB,hsa04145,Phagosome
+HLA-DMB,hsa05323,Rheumatoid arthritis
+HLA-DMB,hsa05164,Influenza A
+HLA-DMB,hsa04514,Cell adhesion molecules
+HLA-DMB,hsa05169,Epstein-Barr virus infection
+HLA-DMB,hsa05140,Leishmaniasis
+HLA-DMB,hsa05416,Viral myocarditis
+HLA-DMB,hsa05166,Human T-cell leukemia virus 1 infection
+HLA-DMB,hsa05152,Tuberculosis
+HLA-DMB,hsa04612,Antigen processing and presentation
+HLA-DMB,hsa05321,Inflammatory bowel disease
+HLA-DMB,hsa05310,Asthma
+HLA-DMB,hsa04658,Th1 and Th2 cell differentiation
+HLA-DMB,hsa05145,Toxoplasmosis
+HLA-DMB,hsa05330,Allograft rejection
+HLA-DMB,hsa05332,Graft-versus-host disease
+HLA-DMB,hsa04659,Th17 cell differentiation
+HLA-DMB,hsa04940,Type I diabetes mellitus
+HLA-DMB,hsa05150,Staphylococcus aureus infection
+HLA-DMB,hsa04672,Intestinal immune network for IgA production
+HLA-DMB,hsa04640,Hematopoietic cell lineage
+HLA-DMB,hsa05320,Autoimmune thyroid disease
+HLA-DMB,hsa05322,Systemic lupus erythematosus
+HLA-DMB,hsa05168,Herpes simplex virus 1 infection
+EBP,hsa00100,Steroid biosynthesis
+GCNT3,hsa00512,Mucin type O-glycan biosynthesis
+APOB,hsa04979,Cholesterol metabolism
+APOB,hsa04975,Fat digestion and absorption
+APOB,hsa04977,Vitamin digestion and absorption
+APOB,hsa05417,Lipid and atherosclerosis
+DOLK,hsa00510,N-Glycan biosynthesis
+ATP5PB,hsa00190,Oxidative phosphorylation
+ATP5PB,hsa05020,Prion disease
+ATP5PB,hsa05014,Amyotrophic lateral sclerosis
+ATP5PB,hsa05012,Parkinson disease
+ATP5PB,hsa05016,Huntington disease
+ATP5PB,hsa05208,Chemical carcinogenesis - reactive oxygen species
+ATP5PB,hsa04714,Thermogenesis
+ATP5PB,hsa05022,Pathways of neurodegeneration - multiple diseases
+ATP5PB,hsa05415,Diabetic cardiomyopathy
+ATP5PB,hsa05010,Alzheimer disease
+ATP5PD,hsa00190,Oxidative phosphorylation
+ATP5PD,hsa05020,Prion disease
+ATP5PD,hsa05014,Amyotrophic lateral sclerosis
+ATP5PD,hsa05012,Parkinson disease
+ATP5PD,hsa05016,Huntington disease
+ATP5PD,hsa05208,Chemical carcinogenesis - reactive oxygen species
+ATP5PD,hsa04714,Thermogenesis
+ATP5PD,hsa05022,Pathways of neurodegeneration - multiple diseases
+ATP5PD,hsa05415,Diabetic cardiomyopathy
+ATP5PD,hsa05010,Alzheimer disease
+DHCR24,hsa00100,Steroid biosynthesis
+PIGS,hsa00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
+GPAA1,hsa00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
+CLU,hsa04610,Complement and coagulation cascades
+CNDP2,hsa00330,Arginine and proline metabolism
+CNDP2,hsa00410,beta-Alanine metabolism
+CNDP2,hsa00340,Histidine metabolism
+AXL,hsa01521,EGFR tyrosine kinase inhibitor resistance
+AKR7A3,hsa00980,Metabolism of xenobiotics by cytochrome P450
+TREX1,hsa04623,Cytosolic DNA-sensing pathway
+PRPS1L1,hsa01200,Carbon metabolism
+PRPS1L1,hsa01230,Biosynthesis of amino acids
+PRPS1L1,hsa00030,Pentose phosphate pathway
+PRPS1L1,hsa00230,Purine metabolism
+DTYMK,hsa00240,Pyrimidine metabolism
+MMP15,hsa04928,"Parathyroid hormone synthesis, secretion and action"
+GLO1,hsa00620,Pyruvate metabolism
+UCHL1,hsa05012,Parkinson disease
+UCHL1,hsa05022,Pathways of neurodegeneration - multiple diseases
+BAMBI,hsa04350,TGF-beta signaling pathway
+BAMBI,hsa04310,Wnt signaling pathway
+GABARAPL1,hsa04137,Mitophagy - animal
+GABARAPL1,hsa04136,Autophagy - other
+GABARAPL1,hsa04140,Autophagy - animal
+GABARAPL1,hsa04068,FoxO signaling pathway
+GABARAPL1,hsa04727,GABAergic synapse
+GABARAPL1,hsa04621,NOD-like receptor signaling pathway
+TNFRSF10D,hsa04061,Viral protein interaction with cytokine and cytokine receptor
+TNFRSF10D,hsa04060,Cytokine-cytokine receptor interaction
+PSAT1,hsa01200,Carbon metabolism
+PSAT1,hsa01230,Biosynthesis of amino acids
+PSAT1,hsa00270,Cysteine and methionine metabolism
+PSAT1,hsa00260,"Glycine, serine and threonine metabolism"
+PSAT1,hsa01240,Biosynthesis of cofactors
+IL10RB,hsa05152,Tuberculosis
+IL10RB,hsa05163,Human cytomegalovirus infection
+IL10RB,hsa05145,Toxoplasmosis
+IL10RB,hsa04061,Viral protein interaction with cytokine and cytokine receptor
+IL10RB,hsa04060,Cytokine-cytokine receptor interaction
+IL10RB,hsa04630,JAK-STAT signaling pathway
+RAB22A,hsa04144,Endocytosis
+EEF1A2,hsa03013,Nucleocytoplasmic transport
+EEF1A2,hsa05134,Legionellosis
+EEF1A2,hsa05140,Leishmaniasis
+VAMP2,hsa04130,SNARE interactions in vesicular transport
+VAMP2,hsa04962,Vasopressin-regulated water reabsorption
+VAMP2,hsa04721,Synaptic vesicle cycle
+VAMP2,hsa04970,Salivary secretion
+VAMP2,hsa04911,Insulin secretion
+RAB9B,hsa05162,Measles
+RAB9B,hsa05132,Salmonella infection
+IPO11,hsa03013,Nucleocytoplasmic transport
+AGMAT,hsa00330,Arginine and proline metabolism
+SLC38A2,hsa04974,Protein digestion and absorption
+SLC38A2,hsa04727,GABAergic synapse
+SLC38A2,hsa04724,Glutamatergic synapse
+TMED10,hsa05130,Pathogenic Escherichia coli infection
+DIS3,hsa03018,RNA degradation
+PTGES,hsa00590,Arachidonic acid metabolism
+CYP1B1,hsa05208,Chemical carcinogenesis - reactive oxygen species
+CYP1B1,hsa00380,Tryptophan metabolism
+CYP1B1,hsa05206,MicroRNAs in cancer
+CYP1B1,hsa04913,Ovarian steroidogenesis
+CYP1B1,hsa00980,Metabolism of xenobiotics by cytochrome P450
+CYP1B1,hsa00140,Steroid hormone biosynthesis
+CYP1B1,hsa05207,Chemical carcinogenesis - receptor activation
+CYP1B1,hsa05204,Chemical carcinogenesis - DNA adducts
+SGPP1,hsa00600,Sphingolipid metabolism
+SGPP1,hsa04071,Sphingolipid signaling pathway
+CLDN1,hsa04514,Cell adhesion molecules
+CLDN1,hsa05160,Hepatitis C
+CLDN1,hsa04670,Leukocyte transendothelial migration
+CLDN1,hsa04530,Tight junction
+CLDN1,hsa05130,Pathogenic Escherichia coli infection
+DAGLB,hsa04723,Retrograde endocannabinoid signaling
+DAGLB,hsa04925,Aldosterone synthesis and secretion
+VSIR,hsa04514,Cell adhesion molecules
+CALML5,hsa05012,Parkinson disease
+CALML5,hsa05022,Pathways of neurodegeneration - multiple diseases
+CALML5,hsa05010,Alzheimer disease
+CALML5,hsa04218,Cellular senescence
+CALML5,hsa04114,Oocyte meiosis
+CALML5,hsa05418,Fluid shear stress and atherosclerosis
+CALML5,hsa05152,Tuberculosis
+CALML5,hsa05170,Human immunodeficiency virus 1 infection
+CALML5,hsa04925,Aldosterone synthesis and secretion
+CALML5,hsa05031,Amphetamine addiction
+CALML5,hsa05133,Pertussis
+CALML5,hsa04970,Salivary secretion
+CALML5,hsa04744,Phototransduction
+CALML5,hsa05163,Human cytomegalovirus infection
+CALML5,hsa04971,Gastric acid secretion
+CALML5,hsa05417,Lipid and atherosclerosis
+CALML5,hsa04070,Phosphatidylinositol signaling system
+CALML5,hsa04722,Neurotrophin signaling pathway
+CALML5,hsa04910,Insulin signaling pathway
+CALML5,hsa04915,Estrogen signaling pathway
+CALML5,hsa04371,Apelin signaling pathway
+CALML5,hsa04625,C-type lectin receptor signaling pathway
+CALML5,hsa05214,Glioma
+CALML5,hsa04022,cGMP-PKG signaling pathway
+CALML5,hsa04922,Glucagon signaling pathway
+CALML5,hsa04261,Adrenergic signaling in cardiomyocytes
+CALML5,hsa04015,Rap1 signaling pathway
+CALML5,hsa04921,Oxytocin signaling pathway
+CALML5,hsa05167,Kaposi sarcoma-associated herpesvirus infection
+CALML5,hsa04912,GnRH signaling pathway
+CALML5,hsa04720,Long-term potentiation
+CALML5,hsa04713,Circadian entrainment
+CALML5,hsa04924,Renin secretion
+CALML5,hsa04916,Melanogenesis
+CALML5,hsa04728,Dopaminergic synapse
+CALML5,hsa04750,Inflammatory mediator regulation of TRP channels
+CALML5,hsa04024,cAMP signaling pathway
+CALML5,hsa05034,Alcoholism
+CALML5,hsa04270,Vascular smooth muscle contraction
+CALML5,hsa04020,Calcium signaling pathway
+CALML5,hsa04014,Ras signaling pathway
+CALML5,hsa04740,Olfactory transduction
+GJA1,hsa05412,Arrhythmogenic right ventricular cardiomyopathy
+GJA1,hsa04540,Gap junction
+AREG,hsa05210,Colorectal cancer
+AREG,hsa04012,ErbB signaling pathway
+AREG,hsa04390,Hippo signaling pathway
+AREG,hsa04151,PI3K-Akt signaling pathway
+AREG,hsa04010,MAPK signaling pathway
+LGR4,hsa04310,Wnt signaling pathway
+TGFB2,hsa05415,Diabetic cardiomyopathy
+TGFB2,hsa04110,Cell cycle
+TGFB2,hsa04218,Cellular senescence
+TGFB2,hsa05323,Rheumatoid arthritis
+TGFB2,hsa04350,TGF-beta signaling pathway
+TGFB2,hsa05211,Renal cell carcinoma
+TGFB2,hsa05140,Leishmaniasis
+TGFB2,hsa05210,Colorectal cancer
+TGFB2,hsa05206,MicroRNAs in cancer
+TGFB2,hsa05410,Hypertrophic cardiomyopathy
+TGFB2,hsa05166,Human T-cell leukemia virus 1 infection
+TGFB2,hsa05152,Tuberculosis
+TGFB2,hsa05414,Dilated cardiomyopathy
+TGFB2,hsa04068,FoxO signaling pathway
+TGFB2,hsa05161,Hepatitis B
+TGFB2,hsa05212,Pancreatic cancer
+TGFB2,hsa05220,Chronic myeloid leukemia
+TGFB2,hsa05321,Inflammatory bowel disease
+TGFB2,hsa05146,Amoebiasis
+TGFB2,hsa04390,Hippo signaling pathway
+TGFB2,hsa05145,Toxoplasmosis
+TGFB2,hsa04933,AGE-RAGE signaling pathway in diabetic complications
+TGFB2,hsa04380,Osteoclast differentiation
+TGFB2,hsa05205,Proteoglycans in cancer
+TGFB2,hsa05225,Hepatocellular carcinoma
+TGFB2,hsa05144,Malaria
+TGFB2,hsa05142,Chagas disease
+TGFB2,hsa05226,Gastric cancer
+TGFB2,hsa04010,MAPK signaling pathway
+TGFB2,hsa04060,Cytokine-cytokine receptor interaction
+PDIA3,hsa04141,Protein processing in endoplasmic reticulum
+PDIA3,hsa05169,Epstein-Barr virus infection
+PDIA3,hsa05170,Human immunodeficiency virus 1 infection
+PDIA3,hsa04612,Antigen processing and presentation
+PDIA3,hsa05163,Human cytomegalovirus infection
+PDIA3,hsa05168,Herpes simplex virus 1 infection
+CXCL5,hsa05323,Rheumatoid arthritis
+CXCL5,hsa05133,Pertussis
+CXCL5,hsa04657,IL-17 signaling pathway
+CXCL5,hsa04668,TNF signaling pathway
+CXCL5,hsa04061,Viral protein interaction with cytokine and cytokine receptor
+CXCL5,hsa04060,Cytokine-cytokine receptor interaction
+CXCL5,hsa04062,Chemokine signaling pathway
+FGB,hsa05171,Coronavirus disease - COVID-19
+FGB,hsa04610,Complement and coagulation cascades
+FGB,hsa04611,Platelet activation
+FGB,hsa04613,Neutrophil extracellular trap formation
+RPS18,hsa03010,Ribosome
+RPS18,hsa05171,Coronavirus disease - COVID-19
+RACK1,hsa05162,Measles
+ARPC4,hsa05132,Salmonella infection
+ARPC4,hsa05100,Bacterial invasion of epithelial cells
+ARPC4,hsa04666,Fc gamma R-mediated phagocytosis
+ARPC4,hsa04530,Tight junction
+ARPC4,hsa04144,Endocytosis
+ARPC4,hsa05131,Shigellosis
+ARPC4,hsa05135,Yersinia infection
+ARPC4,hsa04810,Regulation of actin cytoskeleton
+ARPC4,hsa05130,Pathogenic Escherichia coli infection
+EMD,hsa05412,Arrhythmogenic right ventricular cardiomyopathy
+EMD,hsa05410,Hypertrophic cardiomyopathy
+EMD,hsa05414,Dilated cardiomyopathy
+DPM1,hsa00510,N-Glycan biosynthesis
+DNAJA3,hsa05203,Viral carcinogenesis
+HADHA,hsa00380,Tryptophan metabolism
+HADHA,hsa00071,Fatty acid degradation
+HADHA,hsa00062,Fatty acid elongation
+HADHA,hsa01212,Fatty acid metabolism
+HADHA,hsa00280,"Valine, leucine and isoleucine degradation"
+HADHA,hsa00650,Butanoate metabolism
+HADHA,hsa00640,Propanoate metabolism
+HADHA,hsa00410,beta-Alanine metabolism
+HADHA,hsa00310,Lysine degradation
+PSMD7,hsa05020,Prion disease
+PSMD7,hsa05014,Amyotrophic lateral sclerosis
+PSMD7,hsa05012,Parkinson disease
+PSMD7,hsa05016,Huntington disease
+PSMD7,hsa05022,Pathways of neurodegeneration - multiple diseases
+PSMD7,hsa05010,Alzheimer disease
+PSMD7,hsa03050,Proteasome
+PSMD7,hsa05017,Spinocerebellar ataxia
+PSMD7,hsa05169,Epstein-Barr virus infection
+PSMD2,hsa05020,Prion disease
+PSMD2,hsa05014,Amyotrophic lateral sclerosis
+PSMD2,hsa05012,Parkinson disease
+PSMD2,hsa05016,Huntington disease
+PSMD2,hsa05022,Pathways of neurodegeneration - multiple diseases
+PSMD2,hsa05010,Alzheimer disease
+PSMD2,hsa03050,Proteasome
+PSMD2,hsa05017,Spinocerebellar ataxia
+PSMD2,hsa05169,Epstein-Barr virus infection
+DNAJA2,hsa04141,Protein processing in endoplasmic reticulum
+GAPDHS,hsa00010,Glycolysis / Gluconeogenesis
+DNAJC10,hsa04141,Protein processing in endoplasmic reticulum
+BCAS2,hsa03040,Spliceosome
+EDC4,hsa03018,RNA degradation
+TBL3,hsa03008,Ribosome biogenesis in eukaryotes
+NAT10,hsa03008,Ribosome biogenesis in eukaryotes
+BLVRB,hsa00860,Porphyrin and chlorophyll metabolism
+MCM3,hsa04110,Cell cycle
+MCM3,hsa03030,DNA replication
+FLNC,hsa05132,Salmonella infection
+FLNC,hsa04510,Focal adhesion
+FLNC,hsa05205,Proteoglycans in cancer
+FLNC,hsa04010,MAPK signaling pathway
+RBBP4,hsa04218,Cellular senescence
+CRKL,hsa05211,Renal cell carcinoma
+CRKL,hsa05100,Bacterial invasion of epithelial cells
+CRKL,hsa05206,MicroRNAs in cancer
+CRKL,hsa05170,Human immunodeficiency virus 1 infection
+CRKL,hsa04510,Focal adhesion
+CRKL,hsa05220,Chronic myeloid leukemia
+CRKL,hsa04666,Fc gamma R-mediated phagocytosis
+CRKL,hsa04012,ErbB signaling pathway
+CRKL,hsa05163,Human cytomegalovirus infection
+CRKL,hsa05131,Shigellosis
+CRKL,hsa04722,Neurotrophin signaling pathway
+CRKL,hsa04910,Insulin signaling pathway
+CRKL,hsa05135,Yersinia infection
+CRKL,hsa04810,Regulation of actin cytoskeleton
+CRKL,hsa04015,Rap1 signaling pathway
+CRKL,hsa04935,"Growth hormone synthesis, secretion and action"
+CRKL,hsa04010,MAPK signaling pathway
+CRKL,hsa04062,Chemokine signaling pathway
+RPSA,hsa03010,Ribosome
+RPSA,hsa05171,Coronavirus disease - COVID-19
+MTREX,hsa03018,RNA degradation
+RPS5,hsa03010,Ribosome
+RPS5,hsa05171,Coronavirus disease - COVID-19
+DKC1,hsa03008,Ribosome biogenesis in eukaryotes
+SNRPA,hsa03040,Spliceosome
+RPS12,hsa03010,Ribosome
+RPS12,hsa05171,Coronavirus disease - COVID-19
+PLRG1,hsa03040,Spliceosome
+NOP56,hsa03008,Ribosome biogenesis in eukaryotes
+NOP56,hsa05017,Spinocerebellar ataxia
+RPS2,hsa03010,Ribosome
+RPS2,hsa05171,Coronavirus disease - COVID-19
+MRC1,hsa04145,Phagosome
+MRC1,hsa05152,Tuberculosis
+DDOST,hsa04141,Protein processing in endoplasmic reticulum
+DDOST,hsa00510,N-Glycan biosynthesis
+DDOST,hsa00513,Various types of N-glycan biosynthesis
+RNF5,hsa04141,Protein processing in endoplasmic reticulum
+HERPUD1,hsa04141,Protein processing in endoplasmic reticulum
+IFIH1,hsa05171,Coronavirus disease - COVID-19
+IFIH1,hsa05162,Measles
+IFIH1,hsa05164,Influenza A
+IFIH1,hsa04622,RIG-I-like receptor signaling pathway
+IFIH1,hsa05161,Hepatitis B
+IFIH1,hsa05168,Herpes simplex virus 1 infection
+DPP4,hsa04974,Protein digestion and absorption
+HNRNPU,hsa03040,Spliceosome
+CDH1,hsa04514,Cell adhesion molecules
+CDH1,hsa05100,Bacterial invasion of epithelial cells
+CDH1,hsa05216,Thyroid cancer
+CDH1,hsa04520,Adherens junction
+CDH1,hsa05219,Bladder cancer
+CDH1,hsa04390,Hippo signaling pathway
+CDH1,hsa05213,Endometrial cancer
+CDH1,hsa04371,Apelin signaling pathway
+CDH1,hsa05218,Melanoma
+CDH1,hsa05226,Gastric cancer
+CDH1,hsa04015,Rap1 signaling pathway
+SLC3A2,hsa04150,mTOR signaling pathway
+SLC3A2,hsa04974,Protein digestion and absorption
+SLC3A2,hsa04216,Ferroptosis
+PREB,hsa04141,Protein processing in endoplasmic reticulum
+CDIPT,hsa04070,Phosphatidylinositol signaling system
+CDIPT,hsa00562,Inositol phosphate metabolism
+CDIPT,hsa00564,Glycerophospholipid metabolism
+COX5B,hsa00190,Oxidative phosphorylation
+COX5B,hsa05020,Prion disease
+COX5B,hsa05014,Amyotrophic lateral sclerosis
+COX5B,hsa05012,Parkinson disease
+COX5B,hsa05016,Huntington disease
+COX5B,hsa05208,Chemical carcinogenesis - reactive oxygen species
+COX5B,hsa04714,Thermogenesis
+COX5B,hsa05022,Pathways of neurodegeneration - multiple diseases
+COX5B,hsa05415,Diabetic cardiomyopathy
+COX5B,hsa05010,Alzheimer disease
+COX5B,hsa04932,Non-alcoholic fatty liver disease
+COX5B,hsa04260,Cardiac muscle contraction
+DARS1,hsa00970,Aminoacyl-tRNA biosynthesis
+DYNC1I1,hsa04145,Phagosome
+DYNC1I1,hsa04962,Vasopressin-regulated water reabsorption
+DYNC1I1,hsa05132,Salmonella infection
+EIF2S1,hsa04141,Protein processing in endoplasmic reticulum
+EIF2S1,hsa05020,Prion disease
+EIF2S1,hsa05014,Amyotrophic lateral sclerosis
+EIF2S1,hsa05012,Parkinson disease
+EIF2S1,hsa05022,Pathways of neurodegeneration - multiple diseases
+EIF2S1,hsa05010,Alzheimer disease
+EIF2S1,hsa04932,Non-alcoholic fatty liver disease
+EIF2S1,hsa05162,Measles
+EIF2S1,hsa05164,Influenza A
+EIF2S1,hsa04210,Apoptosis
+EIF2S1,hsa04140,Autophagy - animal
+EIF2S1,hsa05160,Hepatitis C
+EIF2S1,hsa05417,Lipid and atherosclerosis
+EIF2S1,hsa05168,Herpes simplex virus 1 infection
+UBXN4,hsa04141,Protein processing in endoplasmic reticulum
+RPL13A,hsa03010,Ribosome
+RPL13A,hsa05171,Coronavirus disease - COVID-19
+NDUFAF4,hsa04714,Thermogenesis
+SLC25A31,hsa05020,Prion disease
+SLC25A31,hsa05012,Parkinson disease
+SLC25A31,hsa05016,Huntington disease
+SLC25A31,hsa05208,Chemical carcinogenesis - reactive oxygen species
+SLC25A31,hsa05022,Pathways of neurodegeneration - multiple diseases
+SLC25A31,hsa05415,Diabetic cardiomyopathy
+SLC25A31,hsa05010,Alzheimer disease
+SLC25A31,hsa05017,Spinocerebellar ataxia
+SLC25A31,hsa04218,Cellular senescence
+SLC25A31,hsa05164,Influenza A
+SLC25A31,hsa05166,Human T-cell leukemia virus 1 infection
+SLC25A31,hsa04022,cGMP-PKG signaling pathway
+SLC25A31,hsa04217,Necroptosis
+SLC25A31,hsa04613,Neutrophil extracellular trap formation
+SLC25A31,hsa04020,Calcium signaling pathway
+LMNB1,hsa04210,Apoptosis
+MDH2,hsa00020,Citrate cycle (TCA cycle)
+MDH2,hsa01200,Carbon metabolism
+MDH2,hsa00630,Glyoxylate and dicarboxylate metabolism
+MDH2,hsa00620,Pyruvate metabolism
+MDH2,hsa00270,Cysteine and methionine metabolism
+NDUFA9,hsa00190,Oxidative phosphorylation
+NDUFA9,hsa05020,Prion disease
+NDUFA9,hsa05014,Amyotrophic lateral sclerosis
+NDUFA9,hsa05012,Parkinson disease
+NDUFA9,hsa05016,Huntington disease
+NDUFA9,hsa05208,Chemical carcinogenesis - reactive oxygen species
+NDUFA9,hsa04714,Thermogenesis
+NDUFA9,hsa05022,Pathways of neurodegeneration - multiple diseases
+NDUFA9,hsa05415,Diabetic cardiomyopathy
+NDUFA9,hsa05010,Alzheimer disease
+NDUFA9,hsa04932,Non-alcoholic fatty liver disease
+NDUFA9,hsa04723,Retrograde endocannabinoid signaling
+NDUFS1,hsa00190,Oxidative phosphorylation
+NDUFS1,hsa05020,Prion disease
+NDUFS1,hsa05014,Amyotrophic lateral sclerosis
+NDUFS1,hsa05012,Parkinson disease
+NDUFS1,hsa05016,Huntington disease
+NDUFS1,hsa05208,Chemical carcinogenesis - reactive oxygen species
+NDUFS1,hsa04714,Thermogenesis
+NDUFS1,hsa05022,Pathways of neurodegeneration - multiple diseases
+NDUFS1,hsa05415,Diabetic cardiomyopathy
+NDUFS1,hsa05010,Alzheimer disease
+NDUFS1,hsa04932,Non-alcoholic fatty liver disease
+NDUFS1,hsa04723,Retrograde endocannabinoid signaling
+NME4,hsa00240,Pyrimidine metabolism
+NME4,hsa00983,Drug metabolism - other enzymes
+NME4,hsa00230,Purine metabolism
+NME4,hsa01240,Biosynthesis of cofactors
+OXA1L,hsa03060,Protein export
+RPS27L,hsa03010,Ribosome
+RPS27L,hsa05171,Coronavirus disease - COVID-19
+RDH11,hsa00830,Retinol metabolism
+RDH11,hsa01240,Biosynthesis of cofactors
+MRPS17,hsa03010,Ribosome
+STX18,hsa04145,Phagosome
+STX18,hsa04130,SNARE interactions in vesicular transport
+RETSAT,hsa00830,Retinol metabolism
+PSMD4,hsa05020,Prion disease
+PSMD4,hsa05014,Amyotrophic lateral sclerosis
+PSMD4,hsa05012,Parkinson disease
+PSMD4,hsa05016,Huntington disease
+PSMD4,hsa05022,Pathways of neurodegeneration - multiple diseases
+PSMD4,hsa05010,Alzheimer disease
+PSMD4,hsa03050,Proteasome
+PSMD4,hsa05017,Spinocerebellar ataxia
+PSMD4,hsa05169,Epstein-Barr virus infection
+SRPRB,hsa03060,Protein export
+RPL7A,hsa03010,Ribosome
+RPL7A,hsa05171,Coronavirus disease - COVID-19
+RPL12,hsa03010,Ribosome
+RPL12,hsa05171,Coronavirus disease - COVID-19
+RPL18A,hsa03010,Ribosome
+RPL18A,hsa05171,Coronavirus disease - COVID-19
+RPL21,hsa03010,Ribosome
+RPL21,hsa05171,Coronavirus disease - COVID-19
+RPL30,hsa03010,Ribosome
+RPL30,hsa05171,Coronavirus disease - COVID-19
+RPL27A,hsa03010,Ribosome
+RPL27A,hsa05171,Coronavirus disease - COVID-19
+RPL36A,hsa03010,Ribosome
+RPL36A,hsa05171,Coronavirus disease - COVID-19
+RPN1,hsa04141,Protein processing in endoplasmic reticulum
+RPN1,hsa00510,N-Glycan biosynthesis
+RPN1,hsa00513,Various types of N-glycan biosynthesis
+RPS6,hsa03010,Ribosome
+RPS6,hsa05171,Coronavirus disease - COVID-19
+RPS6,hsa04714,Thermogenesis
+RPS6,hsa04150,mTOR signaling pathway
+RPS6,hsa04066,HIF-1 signaling pathway
+RPS6,hsa01521,EGFR tyrosine kinase inhibitor resistance
+RPS6,hsa04910,Insulin signaling pathway
+RPS6,hsa04371,Apelin signaling pathway
+RPS6,hsa05205,Proteoglycans in cancer
+RPS6,hsa04151,PI3K-Akt signaling pathway
+SCD,hsa01212,Fatty acid metabolism
+SCD,hsa01040,Biosynthesis of unsaturated fatty acids
+SCD,hsa04152,AMPK signaling pathway
+SCD,hsa03320,PPAR signaling pathway
+SCD,hsa04936,Alcoholic liver disease
+ACBD3,hsa05132,Salmonella infection
+SUCLA2,hsa00020,Citrate cycle (TCA cycle)
+SUCLA2,hsa01200,Carbon metabolism
+SUCLA2,hsa00640,Propanoate metabolism
+BUB3,hsa04110,Cell cycle
+BUB3,hsa05166,Human T-cell leukemia virus 1 infection
+RPL23,hsa03010,Ribosome
+RPL23,hsa05171,Coronavirus disease - COVID-19
+ABCB6,hsa02010,ABC transporters
+EMG1,hsa03008,Ribosome biogenesis in eukaryotes
+SLC25A17,hsa04146,Peroxisome
+RPP30,hsa03008,Ribosome biogenesis in eukaryotes
+WDR3,hsa03008,Ribosome biogenesis in eukaryotes
+MRPL3,hsa03010,Ribosome
+NDUFA11,hsa00190,Oxidative phosphorylation
+NDUFA11,hsa05020,Prion disease
+NDUFA11,hsa05014,Amyotrophic lateral sclerosis
+NDUFA11,hsa05012,Parkinson disease
+NDUFA11,hsa05016,Huntington disease
+NDUFA11,hsa05208,Chemical carcinogenesis - reactive oxygen species
+NDUFA11,hsa04714,Thermogenesis
+NDUFA11,hsa05022,Pathways of neurodegeneration - multiple diseases
+NDUFA11,hsa05415,Diabetic cardiomyopathy
+NDUFA11,hsa05010,Alzheimer disease
+NDUFA11,hsa04932,Non-alcoholic fatty liver disease
+NDUFA11,hsa04723,Retrograde endocannabinoid signaling
+CYBA,hsa05020,Prion disease
+CYBA,hsa05208,Chemical carcinogenesis - reactive oxygen species
+CYBA,hsa05415,Diabetic cardiomyopathy
+CYBA,hsa04145,Phagosome
+CYBA,hsa05418,Fluid shear stress and atherosclerosis
+CYBA,hsa05140,Leishmaniasis
+CYBA,hsa04670,Leukocyte transendothelial migration
+CYBA,hsa05417,Lipid and atherosclerosis
+CYBA,hsa04380,Osteoclast differentiation
+CYBA,hsa04621,NOD-like receptor signaling pathway
+CYBA,hsa04613,Neutrophil extracellular trap formation
+RDH10,hsa00830,Retinol metabolism
+DDB1,hsa03420,Nucleotide excision repair
+DDB1,hsa05170,Human immunodeficiency virus 1 infection
+DDB1,hsa04120,Ubiquitin mediated proteolysis
+DDB1,hsa05161,Hepatitis B
+DDB1,hsa05203,Viral carcinogenesis
+JAG1,hsa04330,Notch signaling pathway
+JAG1,hsa05165,Human papillomavirus infection
+JAG1,hsa04658,Th1 and Th2 cell differentiation
+JAG1,hsa04668,TNF signaling pathway
+JAG1,hsa05224,Breast cancer
+JAG1,hsa01522,Endocrine resistance
+JAG1,hsa04371,Apelin signaling pathway
+JAG1,hsa05207,Chemical carcinogenesis - receptor activation
+WDR43,hsa03008,Ribosome biogenesis in eukaryotes
+FZD7,hsa05022,Pathways of neurodegeneration - multiple diseases
+FZD7,hsa05010,Alzheimer disease
+FZD7,hsa04150,mTOR signaling pathway
+FZD7,hsa04310,Wnt signaling pathway
+FZD7,hsa04390,Hippo signaling pathway
+FZD7,hsa05165,Human papillomavirus infection
+FZD7,hsa05224,Breast cancer
+FZD7,hsa05205,Proteoglycans in cancer
+FZD7,hsa05225,Hepatocellular carcinoma
+FZD7,hsa05226,Gastric cancer
+FZD7,hsa04934,Cushing syndrome
+FZD7,hsa05217,Basal cell carcinoma
+FZD7,hsa04916,Melanogenesis
+FZD7,hsa04550,Signaling pathways regulating pluripotency of stem cells
+PRPF19,hsa03040,Spliceosome
+PRPF19,hsa04120,Ubiquitin mediated proteolysis
+SEC61A2,hsa04141,Protein processing in endoplasmic reticulum
+SEC61A2,hsa03060,Protein export
+SEC61A2,hsa04145,Phagosome
+SEC61A2,hsa05110,Vibrio cholerae infection
+HSD17B10,hsa05022,Pathways of neurodegeneration - multiple diseases
+HSD17B10,hsa05010,Alzheimer disease
+HSD17B10,hsa00280,"Valine, leucine and isoleucine degradation"
+HADH,hsa00380,Tryptophan metabolism
+HADH,hsa00071,Fatty acid degradation
+HADH,hsa00062,Fatty acid elongation
+HADH,hsa01212,Fatty acid metabolism
+HADH,hsa00280,"Valine, leucine and isoleucine degradation"
+HADH,hsa00650,Butanoate metabolism
+HADH,hsa00310,Lysine degradation
+NT5M,hsa00240,Pyrimidine metabolism
+NT5M,hsa00760,Nicotinate and nicotinamide metabolism
+NT5M,hsa00230,Purine metabolism
+IMPA1,hsa04070,Phosphatidylinositol signaling system
+IMPA1,hsa00562,Inositol phosphate metabolism
+ACAT2,hsa01200,Carbon metabolism
+ACAT2,hsa00900,Terpenoid backbone biosynthesis
+ACAT2,hsa00380,Tryptophan metabolism
+ACAT2,hsa00071,Fatty acid degradation
+ACAT2,hsa01212,Fatty acid metabolism
+ACAT2,hsa00280,"Valine, leucine and isoleucine degradation"
+ACAT2,hsa00650,Butanoate metabolism
+ACAT2,hsa00630,Glyoxylate and dicarboxylate metabolism
+ACAT2,hsa00620,Pyruvate metabolism
+ACAT2,hsa04975,Fat digestion and absorption
+ACAT2,hsa00310,Lysine degradation
+CYTB,hsa00190,Oxidative phosphorylation
+CYTB,hsa05020,Prion disease
+CYTB,hsa05014,Amyotrophic lateral sclerosis
+CYTB,hsa05012,Parkinson disease
+CYTB,hsa05016,Huntington disease
+CYTB,hsa05208,Chemical carcinogenesis - reactive oxygen species
+CYTB,hsa04714,Thermogenesis
+CYTB,hsa05022,Pathways of neurodegeneration - multiple diseases
+CYTB,hsa05415,Diabetic cardiomyopathy
+CYTB,hsa05010,Alzheimer disease
+CYTB,hsa04932,Non-alcoholic fatty liver disease
+CYTB,hsa04260,Cardiac muscle contraction
+PNP,hsa00240,Pyrimidine metabolism
+PNP,hsa00760,Nicotinate and nicotinamide metabolism
+PNP,hsa00230,Purine metabolism
+VPS36,hsa04144,Endocytosis
+PFN1,hsa05014,Amyotrophic lateral sclerosis
+PFN1,hsa05132,Salmonella infection
+PFN1,hsa05131,Shigellosis
+PFN1,hsa04810,Regulation of actin cytoskeleton
+PFN1,hsa04015,Rap1 signaling pathway
+PGAM1,hsa01200,Carbon metabolism
+PGAM1,hsa01230,Biosynthesis of amino acids
+PGAM1,hsa00010,Glycolysis / Gluconeogenesis
+PGAM1,hsa00260,"Glycine, serine and threonine metabolism"
+PGAM1,hsa05230,Central carbon metabolism in cancer
+PGAM1,hsa04922,Glucagon signaling pathway
+HEATR1,hsa03008,Ribosome biogenesis in eukaryotes
+DARS2,hsa00970,Aminoacyl-tRNA biosynthesis
+ARL8A,hsa05132,Salmonella infection
+PSAP,hsa04142,Lysosome
+PSAP,hsa00600,Sphingolipid metabolism
+PSMB3,hsa05020,Prion disease
+PSMB3,hsa05014,Amyotrophic lateral sclerosis
+PSMB3,hsa05012,Parkinson disease
+PSMB3,hsa05016,Huntington disease
+PSMB3,hsa05022,Pathways of neurodegeneration - multiple diseases
+PSMB3,hsa05010,Alzheimer disease
+PSMB3,hsa03050,Proteasome
+PSMB3,hsa05017,Spinocerebellar ataxia
+PSMB9,hsa03050,Proteasome
+PSMB7,hsa05020,Prion disease
+PSMB7,hsa05014,Amyotrophic lateral sclerosis
+PSMB7,hsa05012,Parkinson disease
+PSMB7,hsa05016,Huntington disease
+PSMB7,hsa05022,Pathways of neurodegeneration - multiple diseases
+PSMB7,hsa05010,Alzheimer disease
+PSMB7,hsa03050,Proteasome
+PSMB7,hsa05017,Spinocerebellar ataxia
+PSMD3,hsa05020,Prion disease
+PSMD3,hsa05014,Amyotrophic lateral sclerosis
+PSMD3,hsa05012,Parkinson disease
+PSMD3,hsa05016,Huntington disease
+PSMD3,hsa05022,Pathways of neurodegeneration - multiple diseases
+PSMD3,hsa05010,Alzheimer disease
+PSMD3,hsa03050,Proteasome
+PSMD3,hsa05017,Spinocerebellar ataxia
+PSMD3,hsa05169,Epstein-Barr virus infection
+DOLPP1,hsa00510,N-Glycan biosynthesis
+RPTOR,hsa04714,Thermogenesis
+RPTOR,hsa04150,mTOR signaling pathway
+RPTOR,hsa04136,Autophagy - other
+RPTOR,hsa04140,Autophagy - animal
+RPTOR,hsa05206,MicroRNAs in cancer
+RPTOR,hsa04211,Longevity regulating pathway
+RPTOR,hsa04152,AMPK signaling pathway
+RPTOR,hsa04213,Longevity regulating pathway - multiple species
+RPTOR,hsa05131,Shigellosis
+RPTOR,hsa04910,Insulin signaling pathway
+RPTOR,hsa04151,PI3K-Akt signaling pathway
+RPL5,hsa03010,Ribosome
+RPL5,hsa05171,Coronavirus disease - COVID-19
+RPL23A,hsa03010,Ribosome
+RPL23A,hsa05171,Coronavirus disease - COVID-19
+RPL37A,hsa03010,Ribosome
+RPL37A,hsa05171,Coronavirus disease - COVID-19
+RPS4Y2,hsa03010,Ribosome
+RPS4Y2,hsa05171,Coronavirus disease - COVID-19
+RPS7,hsa03010,Ribosome
+RPS7,hsa05171,Coronavirus disease - COVID-19
+RPS8,hsa03010,Ribosome
+RPS8,hsa05171,Coronavirus disease - COVID-19
+RPS11,hsa03010,Ribosome
+RPS11,hsa05171,Coronavirus disease - COVID-19
+RPS23,hsa03010,Ribosome
+RPS23,hsa05171,Coronavirus disease - COVID-19
+RPS26,hsa03010,Ribosome
+RPS26,hsa05171,Coronavirus disease - COVID-19
+SORD,hsa00040,Pentose and glucuronate interconversions
+SORD,hsa00051,Fructose and mannose metabolism
+HSP90B1,hsa04141,Protein processing in endoplasmic reticulum
+HSP90B1,hsa05418,Fluid shear stress and atherosclerosis
+HSP90B1,hsa05132,Salmonella infection
+HSP90B1,hsa04918,Thyroid hormone synthesis
+HSP90B1,hsa04657,IL-17 signaling pathway
+HSP90B1,hsa05417,Lipid and atherosclerosis
+HSP90B1,hsa04915,Estrogen signaling pathway
+HSP90B1,hsa05215,Prostate cancer
+HSP90B1,hsa05207,Chemical carcinogenesis - receptor activation
+HSP90B1,hsa04151,PI3K-Akt signaling pathway
+UGDH,hsa00040,Pentose and glucuronate interconversions
+UGDH,hsa00520,Amino sugar and nucleotide sugar metabolism
+UGDH,hsa01250,Biosynthesis of nucleotide sugars
+UGDH,hsa01240,Biosynthesis of cofactors
+UGDH,hsa00053,Ascorbate and aldarate metabolism
+SLC25A20,hsa04714,Thermogenesis
+NUP37,hsa05014,Amyotrophic lateral sclerosis
+NUP37,hsa03013,Nucleocytoplasmic transport
+DERL1,hsa04141,Protein processing in endoplasmic reticulum
+DERL1,hsa05014,Amyotrophic lateral sclerosis
+DERL1,hsa05022,Pathways of neurodegeneration - multiple diseases
+POLR1B,hsa03020,RNA polymerase
+CUL1,hsa04141,Protein processing in endoplasmic reticulum
+CUL1,hsa04110,Cell cycle
+CUL1,hsa04114,Oocyte meiosis
+CUL1,hsa04350,TGF-beta signaling pathway
+CUL1,hsa04710,Circadian rhythm
+CUL1,hsa04310,Wnt signaling pathway
+CUL1,hsa05170,Human immunodeficiency virus 1 infection
+CUL1,hsa04120,Ubiquitin mediated proteolysis
+CUL1,hsa04340,Hedgehog signaling pathway
+CUL1,hsa05131,Shigellosis
+SELENOI,hsa00565,Ether lipid metabolism
+SELENOI,hsa00564,Glycerophospholipid metabolism
+DYNLL2,hsa04962,Vasopressin-regulated water reabsorption
+DYNLL2,hsa05132,Salmonella infection
+PDIA4,hsa04141,Protein processing in endoplasmic reticulum
+PDIA4,hsa05110,Vibrio cholerae infection
+PDIA4,hsa04918,Thyroid hormone synthesis
+SPCS2,hsa03060,Protein export
+RCE1,hsa00900,Terpenoid backbone biosynthesis
+ZFP36L2,hsa04218,Cellular senescence
+SRSF6,hsa03040,Spliceosome
+SRSF6,hsa05168,Herpes simplex virus 1 infection
+FNIP1,hsa04150,mTOR signaling pathway
+IPO9,hsa03013,Nucleocytoplasmic transport
+PSMB4,hsa05020,Prion disease
+PSMB4,hsa05014,Amyotrophic lateral sclerosis
+PSMB4,hsa05012,Parkinson disease
+PSMB4,hsa05016,Huntington disease
+PSMB4,hsa05022,Pathways of neurodegeneration - multiple diseases
+PSMB4,hsa05010,Alzheimer disease
+PSMB4,hsa03050,Proteasome
+PSMB4,hsa05017,Spinocerebellar ataxia
+DHX8,hsa03040,Spliceosome
+LAP3,hsa00330,Arginine and proline metabolism
+LAP3,hsa00480,Glutathione metabolism
+NUS1,hsa00900,Terpenoid backbone biosynthesis
+ABCA3,hsa02010,ABC transporters
+GALNT2,hsa00512,Mucin type O-glycan biosynthesis
+GALNT2,hsa00514,Other types of O-glycan biosynthesis
+P4HB,hsa04141,Protein processing in endoplasmic reticulum
+S100A10,hsa05132,Salmonella infection
+MARCKSL1,hsa05140,Leishmaniasis
+MARCKSL1,hsa04666,Fc gamma R-mediated phagocytosis
+SSR1,hsa04141,Protein processing in endoplasmic reticulum
+LMNB2,hsa04210,Apoptosis
+EEF1G,hsa05134,Legionellosis
+CYCS,hsa00190,Oxidative phosphorylation
+CYCS,hsa05020,Prion disease
+CYCS,hsa05014,Amyotrophic lateral sclerosis
+CYCS,hsa05012,Parkinson disease
+CYCS,hsa05016,Huntington disease
+CYCS,hsa05022,Pathways of neurodegeneration - multiple diseases
+CYCS,hsa05010,Alzheimer disease
+CYCS,hsa04932,Non-alcoholic fatty liver disease
+CYCS,hsa05017,Spinocerebellar ataxia
+CYCS,hsa05162,Measles
+CYCS,hsa04115,p53 signaling pathway
+CYCS,hsa05164,Influenza A
+CYCS,hsa05134,Legionellosis
+CYCS,hsa04210,Apoptosis
+CYCS,hsa05169,Epstein-Barr virus infection
+CYCS,hsa05132,Salmonella infection
+CYCS,hsa05222,Small cell lung cancer
+CYCS,hsa05210,Colorectal cancer
+CYCS,hsa05416,Viral myocarditis
+CYCS,hsa05152,Tuberculosis
+CYCS,hsa05170,Human immunodeficiency virus 1 infection
+CYCS,hsa05161,Hepatitis B
+CYCS,hsa05160,Hepatitis C
+CYCS,hsa05163,Human cytomegalovirus infection
+CYCS,hsa01524,Platinum drug resistance
+CYCS,hsa04215,Apoptosis - multiple species
+CYCS,hsa05145,Toxoplasmosis
+CYCS,hsa05131,Shigellosis
+CYCS,hsa05417,Lipid and atherosclerosis
+CYCS,hsa05167,Kaposi sarcoma-associated herpesvirus infection
+CYCS,hsa05130,Pathogenic Escherichia coli infection
+CYCS,hsa05168,Herpes simplex virus 1 infection
+MRPL16,hsa03010,Ribosome
+HCN2,hsa04929,GnRH secretion
+HCN2,hsa04024,cAMP signaling pathway
+UBE2Z,hsa04120,Ubiquitin mediated proteolysis
+CDK9,hsa05202,Transcriptional misregulation in cancer
+ZNF460,hsa05168,Herpes simplex virus 1 infection
+TTC37,hsa03018,RNA degradation
+POLR3A,hsa03020,RNA polymerase
+POLR3A,hsa04623,Cytosolic DNA-sensing pathway
+DLST,hsa00020,Citrate cycle (TCA cycle)
+DLST,hsa01200,Carbon metabolism
+DLST,hsa00380,Tryptophan metabolism
+DLST,hsa00310,Lysine degradation
+ECHS1,hsa01200,Carbon metabolism
+ECHS1,hsa00380,Tryptophan metabolism
+ECHS1,hsa00071,Fatty acid degradation
+ECHS1,hsa00062,Fatty acid elongation
+ECHS1,hsa01212,Fatty acid metabolism
+ECHS1,hsa00280,"Valine, leucine and isoleucine degradation"
+ECHS1,hsa00650,Butanoate metabolism
+ECHS1,hsa00640,Propanoate metabolism
+ECHS1,hsa00410,beta-Alanine metabolism
+ECHS1,hsa00310,Lysine degradation
+GBE1,hsa00500,Starch and sucrose metabolism
+MAN2C1,hsa00511,Other glycan degradation
+EIF2AK4,hsa04141,Protein processing in endoplasmic reticulum
+EIF2AK4,hsa05162,Measles
+EIF2AK4,hsa04140,Autophagy - animal
+EIF2AK4,hsa05160,Hepatitis C
+EIF2AK4,hsa05168,Herpes simplex virus 1 infection
+BRCA2,hsa03440,Homologous recombination
+BRCA2,hsa03460,Fanconi anemia pathway
+BRCA2,hsa05212,Pancreatic cancer
+BRCA2,hsa05224,Breast cancer
+SMC1A,hsa04110,Cell cycle
+SMC1A,hsa04114,Oocyte meiosis
+POLR2C,hsa05016,Huntington disease
+POLR2C,hsa03020,RNA polymerase
+ATP6V1F,hsa00190,Oxidative phosphorylation
+ATP6V1F,hsa04145,Phagosome
+ATP6V1F,hsa05110,Vibrio cholerae infection
+ATP6V1F,hsa04150,mTOR signaling pathway
+ATP6V1F,hsa04966,Collecting duct acid secretion
+ATP6V1F,hsa05120,Epithelial cell signaling in Helicobacter pylori infection
+ATP6V1F,hsa04721,Synaptic vesicle cycle
+ATP6V1F,hsa05323,Rheumatoid arthritis
+ATP6V1F,hsa05165,Human papillomavirus infection
+HGS,hsa04145,Phagosome
+HGS,hsa04144,Endocytosis
+NUMBL,hsa04330,Notch signaling pathway
+NXF1,hsa05014,Amyotrophic lateral sclerosis
+NXF1,hsa03008,Ribosome biogenesis in eukaryotes
+NXF1,hsa03013,Nucleocytoplasmic transport
+NXF1,hsa03015,mRNA surveillance pathway
+NXF1,hsa05164,Influenza A
+NXF1,hsa05168,Herpes simplex virus 1 infection
+DAB2,hsa04144,Endocytosis
+KPNB1,hsa03013,Nucleocytoplasmic transport
+KPNB1,hsa05207,Chemical carcinogenesis - receptor activation
+PEX19,hsa04146,Peroxisome
+IPO4,hsa03013,Nucleocytoplasmic transport
+AQR,hsa03040,Spliceosome
+SQSTM1,hsa05014,Amyotrophic lateral sclerosis
+SQSTM1,hsa05022,Pathways of neurodegeneration - multiple diseases
+SQSTM1,hsa04137,Mitophagy - animal
+SQSTM1,hsa04218,Cellular senescence
+SQSTM1,hsa05418,Fluid shear stress and atherosclerosis
+SQSTM1,hsa04140,Autophagy - animal
+SQSTM1,hsa05131,Shigellosis
+SQSTM1,hsa04380,Osteoclast differentiation
+SQSTM1,hsa04217,Necroptosis
+ATP6AP2,hsa04614,Renin-angiotensin system
+CTSD,hsa05415,Diabetic cardiomyopathy
+CTSD,hsa04142,Lysosome
+CTSD,hsa04210,Apoptosis
+CTSD,hsa04140,Autophagy - animal
+CTSD,hsa05152,Tuberculosis
+CTSD,hsa04915,Estrogen signaling pathway
+CTSD,hsa04071,Sphingolipid signaling pathway
+PCYOX1,hsa00900,Terpenoid backbone biosynthesis
+CYB5R1,hsa00520,Amino sugar and nucleotide sugar metabolism
+SEMA3C,hsa04360,Axon guidance
+CTSC,hsa04142,Lysosome
+CTSC,hsa04210,Apoptosis
+CLN5,hsa04142,Lysosome
+COL4A2,hsa04974,Protein digestion and absorption
+COL4A2,hsa04512,ECM-receptor interaction
+COL4A2,hsa05222,Small cell lung cancer
+COL4A2,hsa04510,Focal adhesion
+COL4A2,hsa05146,Amoebiasis
+COL4A2,hsa05165,Human papillomavirus infection
+COL4A2,hsa04933,AGE-RAGE signaling pathway in diabetic complications
+COL4A2,hsa04926,Relaxin signaling pathway
+COL4A2,hsa04151,PI3K-Akt signaling pathway
+ATF6B,hsa04141,Protein processing in endoplasmic reticulum
+ATF6B,hsa05020,Prion disease
+ATF6B,hsa04211,Longevity regulating pathway
+ATF6B,hsa04918,Thyroid hormone synthesis
+ATF6B,hsa05166,Human T-cell leukemia virus 1 infection
+ATF6B,hsa05030,Cocaine addiction
+ATF6B,hsa04925,Aldosterone synthesis and secretion
+ATF6B,hsa05031,Amphetamine addiction
+ATF6B,hsa05161,Hepatitis B
+ATF6B,hsa04911,Insulin secretion
+ATF6B,hsa05163,Human cytomegalovirus infection
+ATF6B,hsa04668,TNF signaling pathway
+ATF6B,hsa04915,Estrogen signaling pathway
+ATF6B,hsa04927,Cortisol synthesis and secretion
+ATF6B,hsa05207,Chemical carcinogenesis - receptor activation
+ATF6B,hsa04022,cGMP-PKG signaling pathway
+ATF6B,hsa04928,"Parathyroid hormone synthesis, secretion and action"
+ATF6B,hsa04926,Relaxin signaling pathway
+ATF6B,hsa04261,Adrenergic signaling in cardiomyocytes
+ATF6B,hsa04151,PI3K-Akt signaling pathway
+ATF6B,hsa04934,Cushing syndrome
+ATF6B,hsa04935,"Growth hormone synthesis, secretion and action"
+ATF6B,hsa05203,Viral carcinogenesis
+ATF6B,hsa04728,Dopaminergic synapse
+ATF6B,hsa05034,Alcoholism
+CTSS,hsa04145,Phagosome
+CTSS,hsa04142,Lysosome
+CTSS,hsa04210,Apoptosis
+CTSS,hsa05152,Tuberculosis
+CTSS,hsa04612,Antigen processing and presentation
+DNASE2,hsa04142,Lysosome
+FUCA2,hsa04142,Lysosome
+FUCA2,hsa00511,Other glycan degradation
+GNS,hsa04142,Lysosome
+GNS,hsa00531,Glycosaminoglycan degradation
+P4HA3,hsa00330,Arginine and proline metabolism
+INHBB,hsa04350,TGF-beta signaling pathway
+INHBB,hsa04060,Cytokine-cytokine receptor interaction
+INHBB,hsa04550,Signaling pathways regulating pluripotency of stem cells
+ITGA2,hsa04145,Phagosome
+ITGA2,hsa04512,ECM-receptor interaction
+ITGA2,hsa05412,Arrhythmogenic right ventricular cardiomyopathy
+ITGA2,hsa05222,Small cell lung cancer
+ITGA2,hsa05410,Hypertrophic cardiomyopathy
+ITGA2,hsa05414,Dilated cardiomyopathy
+ITGA2,hsa04510,Focal adhesion
+ITGA2,hsa05165,Human papillomavirus infection
+ITGA2,hsa05205,Proteoglycans in cancer
+ITGA2,hsa04640,Hematopoietic cell lineage
+ITGA2,hsa04810,Regulation of actin cytoskeleton
+ITGA2,hsa04151,PI3K-Akt signaling pathway
+ITGA2,hsa04611,Platelet activation
+ITGAV,hsa04145,Phagosome
+ITGAV,hsa04514,Cell adhesion molecules
+ITGAV,hsa05418,Fluid shear stress and atherosclerosis
+ITGAV,hsa04512,ECM-receptor interaction
+ITGAV,hsa05412,Arrhythmogenic right ventricular cardiomyopathy
+ITGAV,hsa05222,Small cell lung cancer
+ITGAV,hsa05410,Hypertrophic cardiomyopathy
+ITGAV,hsa05414,Dilated cardiomyopathy
+ITGAV,hsa04510,Focal adhesion
+ITGAV,hsa04919,Thyroid hormone signaling pathway
+ITGAV,hsa05165,Human papillomavirus infection
+ITGAV,hsa05163,Human cytomegalovirus infection
+ITGAV,hsa05205,Proteoglycans in cancer
+ITGAV,hsa04810,Regulation of actin cytoskeleton
+ITGAV,hsa04151,PI3K-Akt signaling pathway
+LAMC1,hsa05020,Prion disease
+LAMC1,hsa04512,ECM-receptor interaction
+LAMC1,hsa05222,Small cell lung cancer
+LAMC1,hsa04510,Focal adhesion
+LAMC1,hsa05146,Amoebiasis
+LAMC1,hsa05165,Human papillomavirus infection
+LAMC1,hsa05145,Toxoplasmosis
+LAMC1,hsa04151,PI3K-Akt signaling pathway
+LRPAP1,hsa04979,Cholesterol metabolism
+MGAT2,hsa00510,N-Glycan biosynthesis
+MGAT2,hsa00513,Various types of N-glycan biosynthesis
+ATP1B3,hsa04260,Cardiac muscle contraction
+ATP1B3,hsa04974,Protein digestion and absorption
+ATP1B3,hsa04978,Mineral absorption
+ATP1B3,hsa04964,Proximal tubule bicarbonate reclamation
+ATP1B3,hsa04918,Thyroid hormone synthesis
+ATP1B3,hsa04925,Aldosterone synthesis and secretion
+ATP1B3,hsa04961,Endocrine and other factor-regulated calcium reabsorption
+ATP1B3,hsa04960,Aldosterone-regulated sodium reabsorption
+ATP1B3,hsa04970,Salivary secretion
+ATP1B3,hsa04973,Carbohydrate digestion and absorption
+ATP1B3,hsa04911,Insulin secretion
+ATP1B3,hsa04919,Thyroid hormone signaling pathway
+ATP1B3,hsa04971,Gastric acid secretion
+ATP1B3,hsa04976,Bile secretion
+ATP1B3,hsa04972,Pancreatic secretion
+ATP1B3,hsa04022,cGMP-PKG signaling pathway
+ATP1B3,hsa04261,Adrenergic signaling in cardiomyocytes
+ATP1B3,hsa04024,cAMP signaling pathway
+NT5E,hsa00240,Pyrimidine metabolism
+NT5E,hsa00760,Nicotinate and nicotinamide metabolism
+NT5E,hsa00230,Purine metabolism
+TXNDC12,hsa00480,Glutathione metabolism
+BPNT2,hsa00920,Sulfur metabolism
+BPNT2,hsa04070,Phosphatidylinositol signaling system
+EDEM2,hsa04141,Protein processing in endoplasmic reticulum
+NTN4,hsa04360,Axon guidance
+SPCS3,hsa03060,Protein export
+SFRP1,hsa04310,Wnt signaling pathway
+SLIT3,hsa04360,Axon guidance
+VLDLR,hsa05017,Spinocerebellar ataxia
+VLDLR,hsa05417,Lipid and atherosclerosis
+CALR,hsa04141,Protein processing in endoplasmic reticulum
+CALR,hsa04145,Phagosome
+CALR,hsa05169,Epstein-Barr virus infection
+CALR,hsa05166,Human T-cell leukemia virus 1 infection
+CALR,hsa05170,Human immunodeficiency virus 1 infection
+CALR,hsa04612,Antigen processing and presentation
+CALR,hsa05163,Human cytomegalovirus infection
+CALR,hsa05142,Chagas disease
+CALR,hsa05168,Herpes simplex virus 1 infection
+TXNDC5,hsa04141,Protein processing in endoplasmic reticulum
+ELOVL4,hsa00062,Fatty acid elongation
+ELOVL4,hsa01212,Fatty acid metabolism
+ELOVL4,hsa01040,Biosynthesis of unsaturated fatty acids
+FAAH,hsa04723,Retrograde endocannabinoid signaling
+JAM3,hsa05120,Epithelial cell signaling in Helicobacter pylori infection
+JAM3,hsa04514,Cell adhesion molecules
+JAM3,hsa04670,Leukocyte transendothelial migration
+JAM3,hsa04530,Tight junction
+LAMTOR2,hsa04150,mTOR signaling pathway
+MAD2L1,hsa04110,Cell cycle
+MAD2L1,hsa04114,Oocyte meiosis
+MAD2L1,hsa04914,Progesterone-mediated oocyte maturation
+MAD2L1,hsa05166,Human T-cell leukemia virus 1 infection
+NCAM1,hsa05020,Prion disease
+NCAM1,hsa04514,Cell adhesion molecules
+NCSTN,hsa05010,Alzheimer disease
+NCSTN,hsa04330,Notch signaling pathway
+NDUFS3,hsa00190,Oxidative phosphorylation
+NDUFS3,hsa05020,Prion disease
+NDUFS3,hsa05014,Amyotrophic lateral sclerosis
+NDUFS3,hsa05012,Parkinson disease
+NDUFS3,hsa05016,Huntington disease
+NDUFS3,hsa05208,Chemical carcinogenesis - reactive oxygen species
+NDUFS3,hsa04714,Thermogenesis
+NDUFS3,hsa05022,Pathways of neurodegeneration - multiple diseases
+NDUFS3,hsa05415,Diabetic cardiomyopathy
+NDUFS3,hsa05010,Alzheimer disease
+NDUFS3,hsa04932,Non-alcoholic fatty liver disease
+NDUFS3,hsa04723,Retrograde endocannabinoid signaling
+PIGK,hsa00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
+PIGX,hsa00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
+PEDS1,hsa00565,Ether lipid metabolism
+ACAA2,hsa00071,Fatty acid degradation
+ACAA2,hsa00062,Fatty acid elongation
+ACAA2,hsa01212,Fatty acid metabolism
+ACAA2,hsa00280,"Valine, leucine and isoleucine degradation"
+ALCAM,hsa04514,Cell adhesion molecules
+CDK5,hsa05022,Pathways of neurodegeneration - multiple diseases
+CDK5,hsa05010,Alzheimer disease
+CDK5,hsa05030,Cocaine addiction
+CDK5,hsa04360,Axon guidance
+CHMP6,hsa04144,Endocytosis
+CHMP6,hsa04217,Necroptosis
+CYP7B1,hsa00120,Primary bile acid biosynthesis
+CYP7B1,hsa00140,Steroid hormone biosynthesis
+EFNB3,hsa04360,Axon guidance
+IFIT1,hsa05160,Hepatitis C
+NUP133,hsa05014,Amyotrophic lateral sclerosis
+NUP133,hsa03013,Nucleocytoplasmic transport
+PARD3,hsa04520,Adherens junction
+PARD3,hsa04530,Tight junction
+PARD3,hsa04144,Endocytosis
+PARD3,hsa04390,Hippo signaling pathway
+PARD3,hsa05165,Human papillomavirus infection
+PARD3,hsa04360,Axon guidance
+PARD3,hsa04015,Rap1 signaling pathway
+PARD3,hsa04062,Chemokine signaling pathway
+PARD3,hsa04080,Neuroactive ligand-receptor interaction
+PARD6B,hsa04530,Tight junction
+PARD6B,hsa04144,Endocytosis
+PARD6B,hsa04390,Hippo signaling pathway
+PARD6B,hsa05165,Human papillomavirus infection
+PARD6B,hsa04360,Axon guidance
+PARD6B,hsa04015,Rap1 signaling pathway
+PRR5,hsa04150,mTOR signaling pathway
+SLC27A3,hsa04931,Insulin resistance
+STK11,hsa04150,mTOR signaling pathway
+STK11,hsa04140,Autophagy - animal
+STK11,hsa04211,Longevity regulating pathway
+STK11,hsa04068,FoxO signaling pathway
+STK11,hsa04152,AMPK signaling pathway
+STK11,hsa04530,Tight junction
+STK11,hsa04151,PI3K-Akt signaling pathway
+STK11,hsa04920,Adipocytokine signaling pathway
+FBXO5,hsa04114,Oocyte meiosis
+POP7,hsa03008,Ribosome biogenesis in eukaryotes
+SRP68,hsa03060,Protein export
+EIF3H,hsa05162,Measles
+PYM1,hsa03013,Nucleocytoplasmic transport
+PYM1,hsa03015,mRNA surveillance pathway
+SUMO2,hsa03013,Nucleocytoplasmic transport
+SUMO2,hsa05418,Fluid shear stress and atherosclerosis
+LSM4,hsa03018,RNA degradation
+LSM4,hsa03040,Spliceosome
+CDC23,hsa04110,Cell cycle
+CDC23,hsa04114,Oocyte meiosis
+CDC23,hsa04914,Progesterone-mediated oocyte maturation
+CDC23,hsa05166,Human T-cell leukemia virus 1 infection
+CDC23,hsa04120,Ubiquitin mediated proteolysis
+CPSF3,hsa03015,mRNA surveillance pathway
+CRK,hsa05211,Renal cell carcinoma
+CRK,hsa05100,Bacterial invasion of epithelial cells
+CRK,hsa05206,MicroRNAs in cancer
+CRK,hsa05170,Human immunodeficiency virus 1 infection
+CRK,hsa04510,Focal adhesion
+CRK,hsa05220,Chronic myeloid leukemia
+CRK,hsa04666,Fc gamma R-mediated phagocytosis
+CRK,hsa04012,ErbB signaling pathway
+CRK,hsa05163,Human cytomegalovirus infection
+CRK,hsa05131,Shigellosis
+CRK,hsa04722,Neurotrophin signaling pathway
+CRK,hsa04910,Insulin signaling pathway
+CRK,hsa05135,Yersinia infection
+CRK,hsa04810,Regulation of actin cytoskeleton
+CRK,hsa04015,Rap1 signaling pathway
+CRK,hsa04935,"Growth hormone synthesis, secretion and action"
+CRK,hsa04010,MAPK signaling pathway
+CRK,hsa04062,Chemokine signaling pathway
+CSTF2T,hsa03015,mRNA surveillance pathway
+ENDOG,hsa04210,Apoptosis
+LAMTOR5,hsa04150,mTOR signaling pathway
+PATL1,hsa03018,RNA degradation
+POLR2L,hsa05016,Huntington disease
+POLR2L,hsa03020,RNA polymerase
+POLR2L,hsa04623,Cytosolic DNA-sensing pathway
+CCNB1,hsa04110,Cell cycle
+CCNB1,hsa04218,Cellular senescence
+CCNB1,hsa04115,p53 signaling pathway
+CCNB1,hsa04114,Oocyte meiosis
+CCNB1,hsa04914,Progesterone-mediated oocyte maturation
+CCNB1,hsa05170,Human immunodeficiency virus 1 infection
+CCNB1,hsa04068,FoxO signaling pathway
+CDC20,hsa04110,Cell cycle
+CDC20,hsa04114,Oocyte meiosis
+CDC20,hsa05166,Human T-cell leukemia virus 1 infection
+CDC20,hsa04120,Ubiquitin mediated proteolysis
+CDC20,hsa05203,Viral carcinogenesis
+MRPL34,hsa03010,Ribosome
+RPS28,hsa03010,Ribosome
+RPS28,hsa05171,Coronavirus disease - COVID-19
+RRM2B,hsa00240,Pyrimidine metabolism
+RRM2B,hsa04115,p53 signaling pathway
+RRM2B,hsa00983,Drug metabolism - other enzymes
+RRM2B,hsa00230,Purine metabolism
+RRM2B,hsa00480,Glutathione metabolism
+DCP1A,hsa03018,RNA degradation
+JUN,hsa05171,Coronavirus disease - COVID-19
+JUN,hsa05208,Chemical carcinogenesis - reactive oxygen species
+JUN,hsa04932,Non-alcoholic fatty liver disease
+JUN,hsa04137,Mitophagy - animal
+JUN,hsa05120,Epithelial cell signaling in Helicobacter pylori infection
+JUN,hsa05162,Measles
+JUN,hsa05323,Rheumatoid arthritis
+JUN,hsa05211,Renal cell carcinoma
+JUN,hsa04210,Apoptosis
+JUN,hsa05169,Epstein-Barr virus infection
+JUN,hsa05418,Fluid shear stress and atherosclerosis
+JUN,hsa05132,Salmonella infection
+JUN,hsa05140,Leishmaniasis
+JUN,hsa05210,Colorectal cancer
+JUN,hsa05166,Human T-cell leukemia virus 1 infection
+JUN,hsa04310,Wnt signaling pathway
+JUN,hsa05170,Human immunodeficiency virus 1 infection
+JUN,hsa05030,Cocaine addiction
+JUN,hsa04510,Focal adhesion
+JUN,hsa05031,Amphetamine addiction
+JUN,hsa05161,Hepatitis B
+JUN,hsa05133,Pertussis
+JUN,hsa04657,IL-17 signaling pathway
+JUN,hsa05321,Inflammatory bowel disease
+JUN,hsa04012,ErbB signaling pathway
+JUN,hsa04530,Tight junction
+JUN,hsa04658,Th1 and Th2 cell differentiation
+JUN,hsa04668,TNF signaling pathway
+JUN,hsa05224,Breast cancer
+JUN,hsa05131,Shigellosis
+JUN,hsa05417,Lipid and atherosclerosis
+JUN,hsa01522,Endocrine resistance
+JUN,hsa04933,AGE-RAGE signaling pathway in diabetic complications
+JUN,hsa04722,Neurotrophin signaling pathway
+JUN,hsa04915,Estrogen signaling pathway
+JUN,hsa04625,C-type lectin receptor signaling pathway
+JUN,hsa04659,Th17 cell differentiation
+JUN,hsa04380,Osteoclast differentiation
+JUN,hsa05235,PD-L1 expression and PD-1 checkpoint pathway in cancer
+JUN,hsa05135,Yersinia infection
+JUN,hsa05207,Chemical carcinogenesis - receptor activation
+JUN,hsa05142,Chagas disease
+JUN,hsa04621,NOD-like receptor signaling pathway
+JUN,hsa04662,B cell receptor signaling pathway
+JUN,hsa04926,Relaxin signaling pathway
+JUN,hsa04921,Oxytocin signaling pathway
+JUN,hsa05167,Kaposi sarcoma-associated herpesvirus infection
+JUN,hsa05130,Pathogenic Escherichia coli infection
+JUN,hsa04912,GnRH signaling pathway
+JUN,hsa05203,Viral carcinogenesis
+JUN,hsa04660,T cell receptor signaling pathway
+JUN,hsa04010,MAPK signaling pathway
+JUN,hsa05231,Choline metabolism in cancer
+JUN,hsa04620,Toll-like receptor signaling pathway
+JUN,hsa04024,cAMP signaling pathway
+SIRT1,hsa00760,Nicotinate and nicotinamide metabolism
+SIRT1,hsa04218,Cellular senescence
+SIRT1,hsa05206,MicroRNAs in cancer
+SIRT1,hsa04211,Longevity regulating pathway
+SIRT1,hsa05031,Amphetamine addiction
+SIRT1,hsa04068,FoxO signaling pathway
+SIRT1,hsa04152,AMPK signaling pathway
+SIRT1,hsa04213,Longevity regulating pathway - multiple species
+SIRT1,hsa04936,Alcoholic liver disease
+SIRT1,hsa04922,Glucagon signaling pathway
+TAF7,hsa03022,Basal transcription factors
+VCL,hsa05100,Bacterial invasion of epithelial cells
+VCL,hsa04510,Focal adhesion
+VCL,hsa04520,Adherens junction
+VCL,hsa04670,Leukocyte transendothelial migration
+VCL,hsa05146,Amoebiasis
+VCL,hsa05131,Shigellosis
+VCL,hsa04810,Regulation of actin cytoskeleton
+CAT,hsa05014,Amyotrophic lateral sclerosis
+CAT,hsa05208,Chemical carcinogenesis - reactive oxygen species
+CAT,hsa05022,Pathways of neurodegeneration - multiple diseases
+CAT,hsa01200,Carbon metabolism
+CAT,hsa00380,Tryptophan metabolism
+CAT,hsa00630,Glyoxylate and dicarboxylate metabolism
+CAT,hsa04146,Peroxisome
+CAT,hsa04211,Longevity regulating pathway
+CAT,hsa04068,FoxO signaling pathway
+CAT,hsa04213,Longevity regulating pathway - multiple species
+CKS2,hsa05222,Small cell lung cancer
+DCXR,hsa00040,Pentose and glucuronate interconversions
+EIF2B2,hsa05168,Herpes simplex virus 1 infection
+ME2,hsa01200,Carbon metabolism
+ME2,hsa00620,Pyruvate metabolism
+SARS1,hsa00970,Aminoacyl-tRNA biosynthesis
+SMG5,hsa03015,mRNA surveillance pathway
+AHR,hsa05208,Chemical carcinogenesis - reactive oxygen species
+AHR,hsa04659,Th17 cell differentiation
+AHR,hsa05207,Chemical carcinogenesis - receptor activation
+AHR,hsa04934,Cushing syndrome
+ATG2B,hsa05014,Amyotrophic lateral sclerosis
+ATG2B,hsa05016,Huntington disease
+ATG2B,hsa05022,Pathways of neurodegeneration - multiple diseases
+ATG2B,hsa05010,Alzheimer disease
+ATG2B,hsa05017,Spinocerebellar ataxia
+ATG2B,hsa04136,Autophagy - other
+ATG2B,hsa04140,Autophagy - animal
+DTX3L,hsa04330,Notch signaling pathway
+VPS33A,hsa05132,Salmonella infection
+BUB1B,hsa04110,Cell cycle
+BUB1B,hsa05166,Human T-cell leukemia virus 1 infection
+DCTN5,hsa05014,Amyotrophic lateral sclerosis
+DCTN5,hsa05016,Huntington disease
+DCTN5,hsa05022,Pathways of neurodegeneration - multiple diseases
+DCTN5,hsa04962,Vasopressin-regulated water reabsorption
+DCTN5,hsa05132,Salmonella infection
+DCTN6,hsa05014,Amyotrophic lateral sclerosis
+DCTN6,hsa05016,Huntington disease
+DCTN6,hsa05022,Pathways of neurodegeneration - multiple diseases
+DCTN6,hsa04962,Vasopressin-regulated water reabsorption
+DCTN6,hsa05132,Salmonella infection
+NFATC3,hsa04218,Cellular senescence
+NFATC3,hsa05166,Human T-cell leukemia virus 1 infection
+NFATC3,hsa04310,Wnt signaling pathway
+NFATC3,hsa05170,Human immunodeficiency virus 1 infection
+NFATC3,hsa05161,Hepatitis B
+NFATC3,hsa05163,Human cytomegalovirus infection
+NFATC3,hsa04658,Th1 and Th2 cell differentiation
+NFATC3,hsa04360,Axon guidance
+NFATC3,hsa05417,Lipid and atherosclerosis
+NFATC3,hsa04625,C-type lectin receptor signaling pathway
+NFATC3,hsa04659,Th17 cell differentiation
+NFATC3,hsa05235,PD-L1 expression and PD-1 checkpoint pathway in cancer
+NFATC3,hsa05135,Yersinia infection
+NFATC3,hsa04662,B cell receptor signaling pathway
+NFATC3,hsa04022,cGMP-PKG signaling pathway
+NFATC3,hsa04921,Oxytocin signaling pathway
+NFATC3,hsa05167,Kaposi sarcoma-associated herpesvirus infection
+NFATC3,hsa04660,T cell receptor signaling pathway
+NFATC3,hsa04010,MAPK signaling pathway
+RAB11FIP5,hsa04144,Endocytosis
+RALBP1,hsa05212,Pancreatic cancer
+RALBP1,hsa04014,Ras signaling pathway
+TFE3,hsa04137,Mitophagy - animal
+TFE3,hsa05211,Renal cell carcinoma
+TFE3,hsa05202,Transcriptional misregulation in cancer
+CCNB2,hsa04110,Cell cycle
+CCNB2,hsa04218,Cellular senescence
+CCNB2,hsa04115,p53 signaling pathway
+CCNB2,hsa04114,Oocyte meiosis
+CCNB2,hsa04914,Progesterone-mediated oocyte maturation
+CCNB2,hsa05166,Human T-cell leukemia virus 1 infection
+CCNB2,hsa05170,Human immunodeficiency virus 1 infection
+CCNB2,hsa04068,FoxO signaling pathway
+DSG1,hsa05150,Staphylococcus aureus infection
+E2F4,hsa04110,Cell cycle
+E2F4,hsa04218,Cellular senescence
+E2F4,hsa04350,TGF-beta signaling pathway
+FAU,hsa03010,Ribosome
+FAU,hsa05171,Coronavirus disease - COVID-19
+ATP8,hsa00190,Oxidative phosphorylation
+ATP8,hsa05020,Prion disease
+ATP8,hsa05014,Amyotrophic lateral sclerosis
+ATP8,hsa05012,Parkinson disease
+ATP8,hsa05016,Huntington disease
+ATP8,hsa05208,Chemical carcinogenesis - reactive oxygen species
+ATP8,hsa04714,Thermogenesis
+ATP8,hsa05022,Pathways of neurodegeneration - multiple diseases
+ATP8,hsa05415,Diabetic cardiomyopathy
+ATP8,hsa05010,Alzheimer disease
+PPP1R15A,hsa04141,Protein processing in endoplasmic reticulum
+AGPAT2,hsa04975,Fat digestion and absorption
+AGPAT2,hsa00561,Glycerolipid metabolism
+AGPAT2,hsa00564,Glycerophospholipid metabolism
+AGPAT2,hsa04072,Phospholipase D signaling pathway
+ENPP1,hsa00240,Pyrimidine metabolism
+ENPP1,hsa00760,Nicotinate and nicotinamide metabolism
+ENPP1,hsa00230,Purine metabolism
+ENPP1,hsa00500,Starch and sucrose metabolism
+ENPP1,hsa00770,Pantothenate and CoA biosynthesis
+FRAS1,hsa04512,ECM-receptor interaction
+MRPL20,hsa03010,Ribosome
+CALCOCO2,hsa04137,Mitophagy - animal
+CALCOCO2,hsa05164,Influenza A
+CALCOCO2,hsa05131,Shigellosis
+NDUFB8,hsa00190,Oxidative phosphorylation
+NDUFB8,hsa05020,Prion disease
+NDUFB8,hsa05014,Amyotrophic lateral sclerosis
+NDUFB8,hsa05012,Parkinson disease
+NDUFB8,hsa05016,Huntington disease
+NDUFB8,hsa05208,Chemical carcinogenesis - reactive oxygen species
+NDUFB8,hsa04714,Thermogenesis
+NDUFB8,hsa05022,Pathways of neurodegeneration - multiple diseases
+NDUFB8,hsa05415,Diabetic cardiomyopathy
+NDUFB8,hsa05010,Alzheimer disease
+NDUFB8,hsa04932,Non-alcoholic fatty liver disease
+NDUFB8,hsa04723,Retrograde endocannabinoid signaling
+NDUFS7,hsa00190,Oxidative phosphorylation
+NDUFS7,hsa05020,Prion disease
+NDUFS7,hsa05014,Amyotrophic lateral sclerosis
+NDUFS7,hsa05012,Parkinson disease
+NDUFS7,hsa05016,Huntington disease
+NDUFS7,hsa05208,Chemical carcinogenesis - reactive oxygen species
+NDUFS7,hsa04714,Thermogenesis
+NDUFS7,hsa05022,Pathways of neurodegeneration - multiple diseases
+NDUFS7,hsa05415,Diabetic cardiomyopathy
+NDUFS7,hsa05010,Alzheimer disease
+NDUFS7,hsa04932,Non-alcoholic fatty liver disease
+NDUFS7,hsa04723,Retrograde endocannabinoid signaling
+NDUFV1,hsa00190,Oxidative phosphorylation
+NDUFV1,hsa05020,Prion disease
+NDUFV1,hsa05014,Amyotrophic lateral sclerosis
+NDUFV1,hsa05012,Parkinson disease
+NDUFV1,hsa05016,Huntington disease
+NDUFV1,hsa05208,Chemical carcinogenesis - reactive oxygen species
+NDUFV1,hsa04714,Thermogenesis
+NDUFV1,hsa05022,Pathways of neurodegeneration - multiple diseases
+NDUFV1,hsa05415,Diabetic cardiomyopathy
+NDUFV1,hsa05010,Alzheimer disease
+NDUFV1,hsa04932,Non-alcoholic fatty liver disease
+NDUFV1,hsa04723,Retrograde endocannabinoid signaling
+PEX11B,hsa04146,Peroxisome
+SRP9,hsa03060,Protein export
+BUB1,hsa04110,Cell cycle
+BUB1,hsa04114,Oocyte meiosis
+BUB1,hsa04914,Progesterone-mediated oocyte maturation
+FGD1,hsa04810,Regulation of actin cytoskeleton
+NCOA3,hsa04919,Thyroid hormone signaling pathway
+NCOA3,hsa05224,Breast cancer
+NCOA3,hsa01522,Endocrine resistance
+NCOA3,hsa04915,Estrogen signaling pathway
+PNN,hsa03013,Nucleocytoplasmic transport
+PNN,hsa03015,mRNA surveillance pathway
+SF3B4,hsa03040,Spliceosome
+TOMM7,hsa04137,Mitophagy - animal
+UNG,hsa03410,Base excision repair
+UNG,hsa05340,Primary immunodeficiency
+BRK1,hsa05132,Salmonella infection
+BRK1,hsa04810,Regulation of actin cytoskeleton
+BRK1,hsa05130,Pathogenic Escherichia coli infection
+VCP,hsa04141,Protein processing in endoplasmic reticulum
+VCP,hsa05014,Amyotrophic lateral sclerosis
+VCP,hsa05022,Pathways of neurodegeneration - multiple diseases
+VCP,hsa05134,Legionellosis
+PDXP,hsa01240,Biosynthesis of cofactors
+PSMC6,hsa05020,Prion disease
+PSMC6,hsa05014,Amyotrophic lateral sclerosis
+PSMC6,hsa05012,Parkinson disease
+PSMC6,hsa05016,Huntington disease
+PSMC6,hsa05022,Pathways of neurodegeneration - multiple diseases
+PSMC6,hsa05010,Alzheimer disease
+PSMC6,hsa03050,Proteasome
+PSMC6,hsa05017,Spinocerebellar ataxia
+PSMC6,hsa05169,Epstein-Barr virus infection
+MAP3K11,hsa04932,Non-alcoholic fatty liver disease
+MAP3K11,hsa04010,MAPK signaling pathway
+PIGM,hsa00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
+LAMTOR1,hsa04150,mTOR signaling pathway
+P2RY1,hsa04015,Rap1 signaling pathway
+P2RY1,hsa04611,Platelet activation
+P2RY1,hsa04742,Taste transduction
+P2RY1,hsa04080,Neuroactive ligand-receptor interaction
+CSNK1A1L,hsa05022,Pathways of neurodegeneration - multiple diseases
+CSNK1A1L,hsa05010,Alzheimer disease
+CSNK1A1L,hsa04310,Wnt signaling pathway
+CSNK1A1L,hsa04340,Hedgehog signaling pathway
+CSNK1A1L,hsa05165,Human papillomavirus infection
+CSNK1A1L,hsa05224,Breast cancer
+CSNK1A1L,hsa05225,Hepatocellular carcinoma
+CSNK1A1L,hsa05226,Gastric cancer
+MRPL19,hsa03010,Ribosome
+MRPS15,hsa03010,Ribosome
+NUDT16,hsa03018,RNA degradation
+NUDT16,hsa00230,Purine metabolism
+RPL35,hsa03010,Ribosome
+RPL35,hsa05171,Coronavirus disease - COVID-19
+RPL4,hsa03010,Ribosome
+RPL4,hsa05171,Coronavirus disease - COVID-19
+RPS13,hsa03010,Ribosome
+RPS13,hsa05171,Coronavirus disease - COVID-19
+RPS25,hsa03010,Ribosome
+RPS25,hsa05171,Coronavirus disease - COVID-19
+RRP7A,hsa03008,Ribosome biogenesis in eukaryotes
+WBP11,hsa03040,Spliceosome
+LAMTOR3,hsa04150,mTOR signaling pathway
+LAMTOR3,hsa04010,MAPK signaling pathway
+F11R,hsa05120,Epithelial cell signaling in Helicobacter pylori infection
+F11R,hsa04514,Cell adhesion molecules
+F11R,hsa04670,Leukocyte transendothelial migration
+F11R,hsa04530,Tight junction
+KIF22,hsa04914,Progesterone-mediated oocyte maturation
+LSM1,hsa03018,RNA degradation
+MIF,hsa00360,Phenylalanine metabolism
+MIF,hsa00350,Tyrosine metabolism
+NOB1,hsa03008,Ribosome biogenesis in eukaryotes
+PGK2,hsa01200,Carbon metabolism
+PGK2,hsa01230,Biosynthesis of amino acids
+PGK2,hsa00010,Glycolysis / Gluconeogenesis
+PGK2,hsa04066,HIF-1 signaling pathway
+RNF185,hsa04141,Protein processing in endoplasmic reticulum
+SBDS,hsa03008,Ribosome biogenesis in eukaryotes
+SDHB,hsa00190,Oxidative phosphorylation
+SDHB,hsa05020,Prion disease
+SDHB,hsa05014,Amyotrophic lateral sclerosis
+SDHB,hsa05012,Parkinson disease
+SDHB,hsa05016,Huntington disease
+SDHB,hsa05208,Chemical carcinogenesis - reactive oxygen species
+SDHB,hsa04714,Thermogenesis
+SDHB,hsa05022,Pathways of neurodegeneration - multiple diseases
+SDHB,hsa05415,Diabetic cardiomyopathy
+SDHB,hsa05010,Alzheimer disease
+SDHB,hsa04932,Non-alcoholic fatty liver disease
+SDHB,hsa00020,Citrate cycle (TCA cycle)
+SDHB,hsa01200,Carbon metabolism
+SMARCB1,hsa04714,Thermogenesis
+SMARCB1,hsa05225,Hepatocellular carcinoma
+SMCR8,hsa05014,Amyotrophic lateral sclerosis
+SMCR8,hsa05022,Pathways of neurodegeneration - multiple diseases
+SMCR8,hsa04140,Autophagy - animal
+SPCS1,hsa03060,Protein export
+UMPS,hsa00240,Pyrimidine metabolism
+UMPS,hsa00983,Drug metabolism - other enzymes
+UMPS,hsa01240,Biosynthesis of cofactors
+SLC31A1,hsa04978,Mineral absorption
+SLC31A1,hsa01524,Platinum drug resistance
+PEX3,hsa04146,Peroxisome
+ECSIT,hsa04010,MAPK signaling pathway
+PABPN1,hsa03015,mRNA surveillance pathway
+PABPN1,hsa05164,Influenza A
+TK2,hsa00240,Pyrimidine metabolism
+TK2,hsa00983,Drug metabolism - other enzymes
+EIF2B1,hsa05168,Herpes simplex virus 1 infection
+RAD50,hsa04218,Cellular senescence
+RAD50,hsa03450,Non-homologous end-joining
+RAD50,hsa03440,Homologous recombination
+MOCOS,hsa00790,Folate biosynthesis
+COX7C,hsa00190,Oxidative phosphorylation
+COX7C,hsa05020,Prion disease
+COX7C,hsa05014,Amyotrophic lateral sclerosis
+COX7C,hsa05012,Parkinson disease
+COX7C,hsa05016,Huntington disease
+COX7C,hsa05208,Chemical carcinogenesis - reactive oxygen species
+COX7C,hsa04714,Thermogenesis
+COX7C,hsa05022,Pathways of neurodegeneration - multiple diseases
+COX7C,hsa05415,Diabetic cardiomyopathy
+COX7C,hsa05010,Alzheimer disease
+COX7C,hsa04932,Non-alcoholic fatty liver disease
+COX7C,hsa04260,Cardiac muscle contraction
+GSPT1,hsa03015,mRNA surveillance pathway
+POP4,hsa03008,Ribosome biogenesis in eukaryotes
+WDR36,hsa03008,Ribosome biogenesis in eukaryotes
+LSM3,hsa03018,RNA degradation
+LSM3,hsa03040,Spliceosome
+HNRNPA1,hsa05014,Amyotrophic lateral sclerosis
+HNRNPA1,hsa03040,Spliceosome
+TMPRSS2,hsa05171,Coronavirus disease - COVID-19
+TMPRSS2,hsa05164,Influenza A
+TMPRSS2,hsa05215,Prostate cancer
+TMPRSS2,hsa05202,Transcriptional misregulation in cancer
+PYDC1,hsa04621,NOD-like receptor signaling pathway
+BCL2A1,hsa04210,Apoptosis
+BCL2A1,hsa05221,Acute myeloid leukemia
+BCL2A1,hsa04064,NF-kappa B signaling pathway
+BCL2A1,hsa05202,Transcriptional misregulation in cancer
+DCTPP1,hsa00240,Pyrimidine metabolism
+POLR2G,hsa05016,Huntington disease
+POLR2G,hsa03020,RNA polymerase
+LPA,hsa04979,Cholesterol metabolism
+SLC1A5,hsa04974,Protein digestion and absorption
+SLC1A5,hsa05230,Central carbon metabolism in cancer
+TXN,hsa05012,Parkinson disease
+TXN,hsa05418,Fluid shear stress and atherosclerosis
+TXN,hsa05132,Salmonella infection
+TXN,hsa04621,NOD-like receptor signaling pathway
+GSPT2,hsa03015,mRNA surveillance pathway
+CMAS,hsa00520,Amino sugar and nucleotide sugar metabolism
+CMAS,hsa01250,Biosynthesis of nucleotide sugars
+SIKE1,hsa04622,RIG-I-like receptor signaling pathway
+PELO,hsa03015,mRNA surveillance pathway
+IARS2,hsa00970,Aminoacyl-tRNA biosynthesis
+NDUFB9,hsa00190,Oxidative phosphorylation
+NDUFB9,hsa05020,Prion disease
+NDUFB9,hsa05014,Amyotrophic lateral sclerosis
+NDUFB9,hsa05012,Parkinson disease
+NDUFB9,hsa05016,Huntington disease
+NDUFB9,hsa05208,Chemical carcinogenesis - reactive oxygen species
+NDUFB9,hsa04714,Thermogenesis
+NDUFB9,hsa05022,Pathways of neurodegeneration - multiple diseases
+NDUFB9,hsa05415,Diabetic cardiomyopathy
+NDUFB9,hsa05010,Alzheimer disease
+NDUFB9,hsa04932,Non-alcoholic fatty liver disease
+NDUFB9,hsa04723,Retrograde endocannabinoid signaling
+TPR,hsa05014,Amyotrophic lateral sclerosis
+TPR,hsa03013,Nucleocytoplasmic transport
+TPR,hsa05216,Thyroid cancer
+COX5A,hsa00190,Oxidative phosphorylation
+COX5A,hsa05020,Prion disease
+COX5A,hsa05014,Amyotrophic lateral sclerosis
+COX5A,hsa05012,Parkinson disease
+COX5A,hsa05016,Huntington disease
+COX5A,hsa05208,Chemical carcinogenesis - reactive oxygen species
+COX5A,hsa04714,Thermogenesis
+COX5A,hsa05022,Pathways of neurodegeneration - multiple diseases
+COX5A,hsa05415,Diabetic cardiomyopathy
+COX5A,hsa05010,Alzheimer disease
+COX5A,hsa04932,Non-alcoholic fatty liver disease
+COX5A,hsa04260,Cardiac muscle contraction
+XPC,hsa03420,Nucleotide excision repair
+TRIP6,hsa04621,NOD-like receptor signaling pathway
+COX1,hsa00190,Oxidative phosphorylation
+COX1,hsa05020,Prion disease
+COX1,hsa05014,Amyotrophic lateral sclerosis
+COX1,hsa05012,Parkinson disease
+COX1,hsa05016,Huntington disease
+COX1,hsa05208,Chemical carcinogenesis - reactive oxygen species
+COX1,hsa04714,Thermogenesis
+COX1,hsa05022,Pathways of neurodegeneration - multiple diseases
+COX1,hsa05415,Diabetic cardiomyopathy
+COX1,hsa05010,Alzheimer disease
+COX1,hsa04932,Non-alcoholic fatty liver disease
+COX1,hsa04260,Cardiac muscle contraction
+TK1,hsa00240,Pyrimidine metabolism
+TK1,hsa00983,Drug metabolism - other enzymes
+HTT,hsa05016,Huntington disease
+HTT,hsa05022,Pathways of neurodegeneration - multiple diseases
+ATP5PO,hsa00190,Oxidative phosphorylation
+ATP5PO,hsa05020,Prion disease
+ATP5PO,hsa05014,Amyotrophic lateral sclerosis
+ATP5PO,hsa05012,Parkinson disease
+ATP5PO,hsa05016,Huntington disease
+ATP5PO,hsa05208,Chemical carcinogenesis - reactive oxygen species
+ATP5PO,hsa04714,Thermogenesis
+ATP5PO,hsa05022,Pathways of neurodegeneration - multiple diseases
+ATP5PO,hsa05415,Diabetic cardiomyopathy
+ATP5PO,hsa05010,Alzheimer disease
+AARS1,hsa00970,Aminoacyl-tRNA biosynthesis
+RAD23A,hsa04141,Protein processing in endoplasmic reticulum
+RAD23A,hsa03420,Nucleotide excision repair
+POLR1A,hsa03020,RNA polymerase
+POLR3B,hsa03020,RNA polymerase
+POLR3B,hsa04623,Cytosolic DNA-sensing pathway
+CCS,hsa05014,Amyotrophic lateral sclerosis
+CCS,hsa05022,Pathways of neurodegeneration - multiple diseases
+TALDO1,hsa01200,Carbon metabolism
+TALDO1,hsa01230,Biosynthesis of amino acids
+TALDO1,hsa00030,Pentose phosphate pathway
+POLR1C,hsa03020,RNA polymerase
+POLR1C,hsa04623,Cytosolic DNA-sensing pathway
+UQCRFS1,hsa00190,Oxidative phosphorylation
+UQCRFS1,hsa05020,Prion disease
+UQCRFS1,hsa05014,Amyotrophic lateral sclerosis
+UQCRFS1,hsa05012,Parkinson disease
+UQCRFS1,hsa05016,Huntington disease
+UQCRFS1,hsa05208,Chemical carcinogenesis - reactive oxygen species
+UQCRFS1,hsa04714,Thermogenesis
+UQCRFS1,hsa05022,Pathways of neurodegeneration - multiple diseases
+UQCRFS1,hsa05415,Diabetic cardiomyopathy
+UQCRFS1,hsa05010,Alzheimer disease
+UQCRFS1,hsa04932,Non-alcoholic fatty liver disease
+UQCRFS1,hsa04260,Cardiac muscle contraction
+LOC112268384,hsa04740,Olfactory transduction
+CRCP,hsa03020,RNA polymerase
+ATP6V0B,hsa00190,Oxidative phosphorylation
+ATP6V0B,hsa04145,Phagosome
+ATP6V0B,hsa05110,Vibrio cholerae infection
+ATP6V0B,hsa04142,Lysosome
+ATP6V0B,hsa05120,Epithelial cell signaling in Helicobacter pylori infection
+ATP6V0B,hsa04721,Synaptic vesicle cycle
+ATP6V0B,hsa05323,Rheumatoid arthritis
+ATP6V0B,hsa05152,Tuberculosis
+ATP6V0B,hsa05165,Human papillomavirus infection
+MRPL17,hsa03010,Ribosome
+JUND,hsa04657,IL-17 signaling pathway
+JUND,hsa04380,Osteoclast differentiation
+JUND,hsa04928,"Parathyroid hormone synthesis, secretion and action"
+JUND,hsa04010,MAPK signaling pathway
+RPLP2,hsa03010,Ribosome
+RPLP2,hsa05171,Coronavirus disease - COVID-19
+SNRNP27,hsa03040,Spliceosome
+POLR1G,hsa03020,RNA polymerase
+SUCLG1,hsa00020,Citrate cycle (TCA cycle)
+SUCLG1,hsa01200,Carbon metabolism
+SUCLG1,hsa00640,Propanoate metabolism
+VTA1,hsa04144,Endocytosis
+TP73,hsa05162,Measles
+TP73,hsa04115,p53 signaling pathway
+TP73,hsa04390,Hippo signaling pathway
+TP73,hsa04722,Neurotrophin signaling pathway
+FBN1,hsa04350,TGF-beta signaling pathway
+NDUFAF6,hsa04714,Thermogenesis
+RPA3,hsa03420,Nucleotide excision repair
+RPA3,hsa03030,DNA replication
+RPA3,hsa03430,Mismatch repair
+RPA3,hsa03440,Homologous recombination
+RPA3,hsa03460,Fanconi anemia pathway
+ICAM3,hsa04514,Cell adhesion molecules
+RPA1,hsa03420,Nucleotide excision repair
+RPA1,hsa03030,DNA replication
+RPA1,hsa03430,Mismatch repair
+RPA1,hsa03440,Homologous recombination
+RPA1,hsa03460,Fanconi anemia pathway
+MPV17L2,hsa04146,Peroxisome
+CRNKL1,hsa03040,Spliceosome
+ATP6V1D,hsa00190,Oxidative phosphorylation
+ATP6V1D,hsa04145,Phagosome
+ATP6V1D,hsa05110,Vibrio cholerae infection
+ATP6V1D,hsa04150,mTOR signaling pathway
+ATP6V1D,hsa04966,Collecting duct acid secretion
+ATP6V1D,hsa05120,Epithelial cell signaling in Helicobacter pylori infection
+ATP6V1D,hsa04721,Synaptic vesicle cycle
+ATP6V1D,hsa05323,Rheumatoid arthritis
+ATP6V1D,hsa05165,Human papillomavirus infection
+RSL24D1,hsa03010,Ribosome
+RSL24D1,hsa05171,Coronavirus disease - COVID-19
+MSH3,hsa03430,Mismatch repair
+MSH3,hsa05210,Colorectal cancer
+MSH3,hsa01524,Platinum drug resistance
+MRPS16,hsa03010,Ribosome
+MRPL22,hsa03010,Ribosome
+DLAT,hsa00020,Citrate cycle (TCA cycle)
+DLAT,hsa01200,Carbon metabolism
+DLAT,hsa00620,Pyruvate metabolism
+DLAT,hsa00010,Glycolysis / Gluconeogenesis
+MRPL13,hsa03010,Ribosome
+RPL10L,hsa03010,Ribosome
+RPL10L,hsa05171,Coronavirus disease - COVID-19
+NADSYN1,hsa00760,Nicotinate and nicotinamide metabolism
+NADSYN1,hsa01240,Biosynthesis of cofactors
+MRPS7,hsa03010,Ribosome
+IBSP,hsa04512,ECM-receptor interaction
+IBSP,hsa04510,Focal adhesion
+IBSP,hsa05165,Human papillomavirus infection
+IBSP,hsa04151,PI3K-Akt signaling pathway
+HBS1L,hsa03015,mRNA surveillance pathway
+HBS1L,hsa05134,Legionellosis
+RNASEH1,hsa03030,DNA replication
+SSU72,hsa03015,mRNA surveillance pathway
+RAD1,hsa04218,Cellular senescence
+CASQ2,hsa04260,Cardiac muscle contraction
+CASQ2,hsa04020,Calcium signaling pathway
+MRPL27,hsa03010,Ribosome
+MRPS18C,hsa03010,Ribosome
+UQCRB,hsa00190,Oxidative phosphorylation
+UQCRB,hsa05020,Prion disease
+UQCRB,hsa05014,Amyotrophic lateral sclerosis
+UQCRB,hsa05012,Parkinson disease
+UQCRB,hsa05016,Huntington disease
+UQCRB,hsa05208,Chemical carcinogenesis - reactive oxygen species
+UQCRB,hsa04714,Thermogenesis
+UQCRB,hsa05022,Pathways of neurodegeneration - multiple diseases
+UQCRB,hsa05415,Diabetic cardiomyopathy
+UQCRB,hsa05010,Alzheimer disease
+UQCRB,hsa04932,Non-alcoholic fatty liver disease
+UQCRB,hsa04260,Cardiac muscle contraction
+XRCC5,hsa03450,Non-homologous end-joining
+SF3B1,hsa03040,Spliceosome
+HOXA9,hsa05202,Transcriptional misregulation in cancer
+DCP1B,hsa03018,RNA degradation
+PIGQ,hsa00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
+FTMT,hsa04216,Ferroptosis
+ND1,hsa00190,Oxidative phosphorylation
+ND1,hsa05020,Prion disease
+ND1,hsa05014,Amyotrophic lateral sclerosis
+ND1,hsa05012,Parkinson disease
+ND1,hsa05016,Huntington disease
+ND1,hsa05208,Chemical carcinogenesis - reactive oxygen species
+ND1,hsa04714,Thermogenesis
+ND1,hsa05022,Pathways of neurodegeneration - multiple diseases
+ND1,hsa05415,Diabetic cardiomyopathy
+ND1,hsa05010,Alzheimer disease
+ND1,hsa04723,Retrograde endocannabinoid signaling

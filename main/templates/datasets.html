@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>{{ title }}</h1>
+	<div class="container">
+		<ul>
+			<li><h5><a href="https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.39/" target="_blank" rel="noopener noreferrer">Human Genome</a></h5></li>
+			<li><h5><a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_045512.2/" target="_blank" rel="noopener noreferrer">SARS-CoV-2 Reference Genome</a></h5></li>
+			<li><h5>SARS-CoV-2 Variants' Genomes from NCBI:</h5>
+				<ul>
+					<li><h6><a href="https://www.ncbi.nlm.nih.gov/nuccore/LR991699.2/" target="_blank" rel="noopener noreferrer">B.1.1.7 (LR991699.2)</a></h6></li>
+				</ul>
+				<h5>From <span data-toggle="tooltip" data-placement="top" title="Account required for access to files"><a href="https://www.gisaid.org/" target="_blank" rel="noopener noreferrer">GISAID Initiative</a></span>:</h5>
+				<ul>
+					<li><h6>B.1.351 (EPI_ISL_712081)</h6></li>
+					<li><h6>B.1.427 (EPI_ISL_468365)</h6></li>
+					<li><h6>B.1.525 (EPI_ISL_4255014)</h6></li>
+					<li><h6>B.1.526 (EPI_ISL_3364539)</h6></li>
+					<li><h6>B.1.617 (EPI_ISL_1360376)</h6></li>
+					<li><h6>B.1.617.2 (EPI_ISL_2461258)</h6></li>
+					<li><h6>B.1.617.3 (EPI_ISL_2556860)</h6></li>
+					<li><h6>B.1.621 (EPI_ISL_4077325)</h6></li>
+					<li><h6>P.1 (EPI_ISL_833137)</h6></li>
+					<li><h6>P.2 (EPI_ISL_2157561)</h6></li>
+					<li><h6>EG.5 (EPI_ISL_18221204)</h6></li>
+					<li><h6>XBB.1.16 (EPI_ISL_18221205)</h6></li>
+				</ul>
+			</li>
+
+
+			<li><h5>Tissue Expression: <a href="https://storage.googleapis.com/gtex_analysis_v8/rna_seq_data/GTEx_Analysis_2017-06-05_v8_RNASeQCv1.1.9_gene_median_tpm.gct.gz" target="_blank" rel="noopener noreferrer">Dataset</a>|<a href="https://gtexportal.org/home/" target="_blank" rel="noopener noreferrer">Website</a></h5></li>
+			<li><h5>Subcellular Localization: <a href="https://www.proteinatlas.org/download/subcellular_location.tsv.zip" target="_blank" rel="noopener noreferrer">Dataset</a>|<a href="https://www.proteinatlas.org/">Website</a></h5></li>
+		</ul>
+
+	<h2>Databases</h2>
+		<ul>
+			<li><h5><a href="https://www.genome.jp/kegg/pathway.html" target="_blank" rel="noopener noreferrer">KEGG Pathway</a></h5></li>
+			<li><h5><a href="http://geneontology.org/" target="_blank" rel="noopener noreferrer">Gene Ontology</a></h5></li>
+		</ul>
+
+	</div>
+{% endblock content %}

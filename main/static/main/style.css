@@ -1,0 +1,159 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.med-img {
+    width: 400px;
+    height: auto;
+}
+
+.small-img {
+    width: 200px;
+    height: auto;
+}
+
+.fa-check-circle {
+    color: green;
+}
+
+.fa-spinner {
+    color: red;
+    animation-name: spin;
+    animation-duration: 4500ms;
+    animation-iteraction-count: infinite;
+}
+
+.large {
+    font-size: 50px;
+}
+
+.small {
+    font-size: 15px;
+}
+
+.home {
+    font-size: 18px;
+}
+
+@keyframes spin{
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.#000000 {
+    color: white;
+}
+
+.fa-red {
+    color: red;
+}
+
+.fa-blue {
+    color: blue;
+}
+
+#cy {
+	height: 70vh;
+	width: 70wh;
+	position: relative;
+}
+
+a {
+    margin: 2px;
+}
+
+button {
+    margin: 5px;
+}
+
+.tablink {
+    background-color: inherit;
+    border: none;
+    outline: none;
+}
+
+.tablink:hover {
+    color: white;
+}
+
+.tablink.active {
+    background-color: #ccc;
+}
+
+.start-inactive {
+    display: none;
+}
+
+#cy-toolbar {
+}
+
+#table-wrapper {
+	overflow:hidden;
+	overflow-y:scroll;
+	overflow-x: scroll;
+	height: 70vh;
+}
+
+body {
+  background: #fafafa;
+  color: #333333;
+  margin-top: 5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444444;
+}
+
+.bg-steel {
+  background-color: #5f788a;
+}
+
+.site-header .navbar-nav .nav-link #cy-toolbar{
+  color: #cbd5db;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+.chip {
+  display: inline-block;
+  padding: 0 7px;
+  height: 30px;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 30px;
+  border-radius: 25px;
+  background-color: #5f788a;
+  margin: 2px;
+  color: white;
+}
+
+.closebtn {
+  padding-left: 5px;
+  color: #888;
+  font-weight: bold;
+  float: right;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.closebtn:hover {
+  color: #000;
+}
+

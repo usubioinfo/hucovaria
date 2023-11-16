@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<h1>{{ title }}</h1>
+	<div class="container home">
+		<p>
+			SARS-CoV-2, a betacoronavirus, and the pathogen that causes COVID-19, has impacted the world in a variety of ways. Vaccines and other treatments 
+			have helped prevent and treat COVID-19. However, as with all viruses, SARS-CoV-2 will mutate, possibly resulting changes in transmissibility 
+			and different pathways the virus can be involved in. Investigating the protein-protein interactions between human proteins and various strains 
+			of SARS-CoV-2 proteins can give insight into common pathways the various strains are involved in.
+		</p>
+		<p>
+			The interactions are classified into two different groups based on the method of being predicted: interolog (using BLAST) and domain 
+			(using HMMER). This resulted in 178,713 interactions across 14 strains (including the original, reference). These interactions were also 
+			characterized with KEGG (pathway enrichment), Gene Ontology (GO enrichment), Subcellular Localization, and Tissue Expression.
+		</p>
+		<p>
+			For any problems, issues or questions that arise from using this webtool, e-mail <a href= "mailto:rkaundal@usu.edu"> bioinfo@kaabil.net</a>.
+		</p>
+	</div>
+	<img src="{% static 'main/architecture.png' %}" width="75%"></img>
+{% endblock content %}

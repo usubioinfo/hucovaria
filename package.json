@@ -1,0 +1,22 @@
+{
+  "name": "hucovaria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "module load sqlite/3.36 && pm2 start \"python3 manage.py runserver localhost:9003\" -n \"hucovaria\"",
+    "testRun": "module load sqlite/3.36 && python3 manage.py runserver localhost:9003"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KoltonHauck/hucovaria.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KoltonHauck/hucovaria/issues"
+  },
+  "homepage": "https://github.com/KoltonHauck/hucovaria#readme"
+}
+

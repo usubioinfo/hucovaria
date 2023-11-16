@@ -1,0 +1,385 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+		<h1>{{ title }}</h1>
+		<hr>
+		<div class="container">
+			<form class="form-horizontal" id="myform">
+			<div class="row">
+
+				<!-- Host Strains Selection chunk -->				
+				<div class="col">
+					<h4>Human Proteins <span data-toggle="tooltip" data-placement="top" title="Proteins must be comma separated"><i class="fa fa-question-circle small"></i></span></h4>
+						<div class="form-group">
+							<textarea class="form-control" id="human_prots_text" name="human_prots_text" placeholder="Example: VAMP4, MOGS, RETSAT, DOK, SCD, SLIT3, DARS2" rows="6" required></textarea>
+						</div>
+
+						<div class="btn-group">
+							<button type="button" class="btn btn-primary" onclick="document.getElementById('human_prots_text').value='VAMP4, MOGS, RETSAT, DOK, SCD, SLIT3, DARS2';">Sample</button>
+							<button type="button" class="btn btn-secondary" onclick="clearHumanProteins();">Clear</button>
+						</div><br>
+                        <div class="form-group">
+                            <input type="file" name="file" id="fileInput">
+                        </div>
+				</div>
+
+				<!-- Viral Strains Selection chunk -->
+				<div class="col">
+					<h4>SARS-CoV-2 Strains</h4>
+						<div id="sars_strains_div" class="strains_wrapper">
+						{% for strain in strains %}
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="1" id={{strain.name}} name={{strain.name}} checked required>
+								<label class="form-check-label" for={{strain.name}}>{{strain.name}} ({{strain.label}})</label>
+							</div>
+						{% endfor %}
+						</div>
+
+						<div class="btn-group">
+							<button id="sars_strains_button" type="button" class="btn btn-secondary" onclick="selectOrClearAllStrains();">De-select All</button>
+						</div>
+				</div>
+
+				<!-- Virus Protein Selection chunk -->
+				<div class="col">
+					<h4>SARS-CoV-2 Proteins</h4>
+						<div class="form-group">
+							<select multiple size="6" class="form-control" name="sars_proteins" id="sars_proteins" required>
+								{% for prot in virusProteins %}
+									<option onclick="myFunct(this)" id="select_{{prot}}">{{prot}}</option>
+								{% endfor %}
+							</select>
+						</div>
+
+						<div class="btn-group">
+							<button id="sars_proteins_button" type="button" class="btn btn-primary" onclick="selectOrClearAll()">Select All</button>
+						</div>
+
+					<div id="chips">
+					</div>
+				</div>
+
+
+				<!-- Annotation chunk & interaction -->
+				<div class="col" id="annotation_div">
+					<h4>Annotation Type</h4>
+
+					{% for annotation in annotations %}
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="Annotation" id={{annotation.name}} value={{annotation.name}} data-toggle="collapse" data-target=".ontologyCollapse.show">
+							<label class="form-check-label" for={{annotation.name}}>{{annotation.pprint}}</label>
+						</div>
+					{% endfor %}
+
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="Annotation" id="Gene Ontology" value="Gene Ontology" data-toggle="collapse" data-target=".ontologyCollapse" checked>
+						<label class="form-check-label" for="Gene Ontology">Gene Ontology</label>
+					</div>
+
+					<!-- collapsable ontology menu -->
+					<div class="ontologyCollapse collapse">
+					<ul>
+						{% for ontology in ontologies %}
+							<li><div class="form-check">
+								<input class="form-check-input" type="checkbox" name={{ontology}} value="1" id={{ontology}} checked disabled>
+								<label class="form-check-label" for={{ontology}}>{{ontology}}</label>
+							</div></li>
+						{% endfor %}
+				    </ul>
+					</div>
+
+					<hr>
+
+                    <!-- select interaction type -->
+					<h4>Interaction Type <span data-toggle="tooltip" data-placement="top" title="Interolog: homology-based interactions|Domain: domain-based interactions|Combined: Both interolog and domain-based interactions"><i class="fa fa-question-circle small"></i></span></h4>
+					<div>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="interaction" id="interolog" value="Interolog">
+							<label class="form-check-label" for="interolog">Interolog</label>
+						</div>
+
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="interaction" id="domain" value="Domain">
+							<label class="form-check-label" for="domain">Domain</label>
+						</div>
+
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="interaction" id="combined" value="Combined" checked>
+							<label class="form-check-label" for="combined">Combined</label>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div>
+				<input type="hidden" id="hidden_sars_prots" name="hidden_sars_prots" value="" required>
+			</div>
+
+            <div class="form-group">
+                <label for="email">Enter Email (optional)</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email for notification when query is finished">
+            </div>
+
+            <hr>
+
+			<!-- submit button -->
+			<div class="container"><button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal" id="modal_button" hidden>Display Modal</button></div>
+			</form>
+
+			<div class="container"><button class="btn btn-primary" onclick="checkForReqs();">Submit Query</button></div>
+
+            <!-- query submission modal -->
+			<div class="modal fade" id="myModal" data-bs-keyboard="false" data-bs-backdrop="static">
+			    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Your Query Has Been Submitted!</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" onclick="location.reload()"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Your results will be available at the following link when ready: <a href="{% url 'main:table' result_name %}">{{ result_name }}</a></p>
+                            <p><small>Please click the 'X' or refresh page to submit another query</small></p>
+                        </div>
+                        <div class="modal-footer">
+                            <span id="status-not-done">Status: not done <i class="fa fa-spinner small"></i></span>
+                            <span id="status-done" hidden>Status: done <i class="fa fa-check-circle small"></i></span>
+                        </div>
+                    </div>
+			    </div>
+			</div>
+		</div>
+
+<script type="text/javascript">
+//create var with result_name
+var result_name = "{{result_name}}";
+
+document.getElementById("KEGG").checked = true;
+
+//generate random #
+function uuidv4() {
+    return ([1e7]+-1e3+-4e3+-8e3+-1e11).replace(/[018]/g, c =>
+        (c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> c / 4).toString(16)
+    );
+}
+
+//get the viral proteins selected
+function getProteinSelection() {
+	ancestor = document.getElementById("chips");
+	descendants = ancestor.getElementsByTagName("div");
+	myArr = [];
+	for (var i=0; i<descendants.length; i++) {
+		myArr.push(descendants[i].id);
+	}
+	document.getElementById("hidden_sars_prots").value = myArr;
+}
+
+//verify that sars proteins/strains have been selected-otherwise display required message
+function checkForReqs() {
+        let numViralProts = document.getElementById("chips").getElementsByTagName("div").length;
+        let flag = true;
+        if (numViralProts != 0) {
+            document.getElementById("sars_proteins").required = false;
+        }
+        else {
+            flag = false;
+        }
+        let numStrainsChecked = document.getElementById("sars_strains_div").querySelectorAll("input[type=checkbox]:checked").length;
+
+        if (numStrainsChecked != 0) {
+            let viralStrains = document.getElementById("sars_strains_div").getElementsByTagName("input");
+            for (var i=0; i<viralStrains.length; i++) {
+                viralStrains[i].required = false;
+            }
+        }
+        else {
+            flag = false;
+        }
+
+        let humanProts = document.getElementById("human_prots_text").value;
+
+        if (humanProts === "") {
+            flag = false;
+        }
+
+        if (flag) {
+            document.getElementById("modal_button").click();
+        }
+        else {
+            alert("One or more fields require values");
+        }
+}
+
+//submit button => add formdata
+document.getElementById("myform").addEventListener("submit", 
+	function(e) {
+		e.preventDefault();
+
+		let formData = new FormData();
+
+        //human proteins
+		formData.append("human_prots_text", document.querySelector("#human_prots_text").value);
+
+		//virus proteins
+		getProteinSelection();
+		formData.append("hidden_sars_prots", document.querySelector("#hidden_sars_prots").value);
+
+        //strains
+		{% for strain in strains %}
+		    formData.append("{{ strain.name }}", document.getElementById("{{ strain.name }}").value);
+		{% endfor %}
+
+        //ontologies
+		{% for ontology in ontologies %}
+			formData.append("{{ ontology }}", document.getElementById("{{ ontology }}").value);
+		{% endfor %}
+
+        //annotations
+	    formData.append("Annotation", document.querySelector('input[name="Annotation"]:checked').value);
+
+        //GO
+        formData.append("Gene Ontology", document.getElementById("Gene Ontology").value);
+
+        //result_name
+        formData.append("result_name", "{{result_name}}");
+
+        //email
+        formData.append("email", document.getElementById("email").value);
+        formData.append("link", window.location.host + "{% url 'main:table' result_name %}");
+
+        //csrf token
+        formData.append("csrfmiddlewaretoken", "{{ csrf_token }}");
+
+		fetch("{% url 'main:query' %}", {
+			method: 'POST',
+			body: formData
+		})
+		.then(response => response)
+		.then(data => {
+		    document.getElementById("status-not-done").hidden = true;
+		    document.getElementById("status-done").hidden = false;
+
+			// Redirect to the new page
+			window.location.href = "{% url 'main:table' result_name %}";
+		})			
+		.catch(error => {
+            alert(`error: ${error}`);
+            console.log(error);
+		});
+});
+
+//strains clear/select all button
+function selectOrClearAllStrains() {
+	const button = document.getElementById("sars_strains_button");
+
+	let strains = ["B.1.1.7", "B.1.351", "B.1.427", "B.1.525", "B.1.526", "B.1.617", "B.1.617.2", "B.1.617.3", "B.1.621", "P.1", "P.2", "EG.5", "XBB.1.16", "Reference"]
+
+	if (button.innerHTML === "Select All") {
+		button.innerHTML = "De-select All";
+		button.className = "btn btn-secondary";
+
+		for (var i=0; i<strains.length; i++) {
+			document.getElementById(strains[i]).checked = true;
+		}
+
+	} else {
+		button.innerHTML = "Select All";
+		button.className = "btn btn-primary";
+
+		for (var i=0; i<strains.length; i++) {
+			document.getElementById(strains[i]).checked = false;
+		}
+	}
+}
+
+//viral proteins clear/select all button
+function selectOrClearAll() {
+	const button = document.getElementById("sars_proteins_button");
+
+	const ancestor = document.getElementById("chips");
+	const chipsToRemove = ancestor.getElementsByTagName("div");
+	toRemove = [];
+
+	for (var i=0; i<chipsToRemove.length; i++) {
+		toRemove.push(chipsToRemove[i].id);
+	}
+
+	if (button.innerHTML === "Select All") {
+		button.innerHTML = "Clear All";
+		button.className = "btn btn-secondary";
+
+		const multiSelect = document.getElementById("sars_proteins");
+		const toSelect = [];
+
+		for (var i=0; i<multiSelect.options.length; i++) {
+			const id = multiSelect.options[i].id.split("_");
+			toSelect.push(id[1]);
+		}
+		for (var i=0; i<toRemove.length; i++) {
+			const index = toSelect.indexOf(toRemove[i]);
+			toSelect.splice(index, 1);
+		}
+		for (var i=0; i<toSelect.length; i++) {
+			myFunct(toSelect[i]);
+		}
+
+	} else {
+		button.innerHTML = "Select All";
+		button.className = "btn btn-primary";
+
+		for (var i=0; i<toRemove.length; i++) {
+			document.getElementById(toRemove[i]).remove();
+		}
+	}
+
+}
+
+//generate chips function
+function myFunct(selection) {
+	if (typeof(selection) === "object") {
+		selection = selection.value;
+	}
+	if (document.contains(document.getElementById(selection))) {
+		document.getElementById(selection).remove();
+	} else {
+		const newChip = document.createElement("div");
+		newChip.className = "chip";
+		newChip.innerText=selection;
+		newChip.id = selection;
+
+		const newSpan = document.createElement("span");
+		newSpan.className="closebtn";
+		newSpan.onclick= function() {
+			this.parentElement.remove();
+		}
+		newSpan.innerHTML="&times;";
+
+		newChip.appendChild(newSpan);
+		chips = document.getElementById("chips");
+		chips.appendChild(newChip);
+	}
+}
+
+//button to clear human protein selection
+function clearHumanProteins() {
+    document.getElementById("human_prots_text").value = "";
+    document.getElementById("fileInput").value = "";
+}
+
+//file upload
+document.getElementById("fileInput").addEventListener("change", handleFileSelect, false);
+
+function handleFileSelect(event) {
+    const reader = new FileReader();
+    reader.onload = handleFileLoad;
+    reader.readAsText(event.target.files[0]);
+}
+
+function handleFileLoad(event) {
+    console.log(event);
+    document.getElementById("human_prots_text").textContent = event.target.result;
+}
+
+</script>
+
+{% endblock content %}

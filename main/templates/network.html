@@ -80,6 +80,7 @@
 <script>
 selectedStrains = []
 selectedProteins = []
+
 function toggleProtein(nodeID) {
 	if (selectedProteins.includes(nodeID)) {
 		selectedProteins = selectedProteins.filter(item => item !== nodeID)
@@ -110,42 +111,53 @@ function toggleProtein(nodeID) {
 		selectedProteins.push(nodeID)
 		cy.edges().style('visibility', 'hidden');
 	}
+
+	if (selectedStrains.length > 0) {
+		cy.edges().filter(function (edge, i, eles) {
+			var strainAttributeValue = edge.data('strain');
+			return !selectedStrains.includes(strainAttributeValue);
+		}).style('visibility', 'hidden');
+	}
 }
 
-// function toggleNode(nodeID) {
-//     var node = cy.getElementById(nodeID);
-    
-//     // Get the neighborhood of the selected node
-//     var neighborhood = node.neighborhood();
-    
-//     // Combine the selected node and its neighborhood
-//     var elementsToShow = node.union(neighborhood);
-    
-//     // Toggle visibility for the combined elements
-//     elementsToShow.forEach(function(element){
-//         if (element.style("visibility") === "visible") {
-//             element.style("visibility", "hidden");
-//         } else {
-//             element.style("visibility", "visible");
-//         }
-//     });
+function toggleStrain(strain) {
+	if (selectedStrains.length === 0) {
+		cy.edges().style('visibility', 'hidden');
+		var edgeList = cy.elements(`edge[strain="${strain}"]`);
+		for (edge of edgeList) {
+			edge.style("visibility", "visible")
+		}
+		selectedStrains.push(strain)
+		document.getElementById(strain).style.backgroundColor = "#5f788a";
+	} else if (selectedStrains.length === 1 && selectedStrains.includes(strain)) {
+		cy.edges().style('visibility', 'visible');
+		document.getElementById(strain).style.backgroundColor = "#ffffff";
+		selectedStrains = []
+	} else {
+		if (selectedStrains.includes(strain)) {
+			var edgeList = cy.elements(`edge[strain="${strain}"]`);
+			for (edge of edgeList) {
+				edge.style("visibility", "hidden")
+			}
+            document.getElementById(strain).style.backgroundColor = "#ffffff";
+			selectedStrains = selectedStrains.filter(item => item !== strain)
+		} else {
+			var edgeList = cy.elements(`edge[strain="${strain}"]`);
+			for (edge of edgeList) {
+				edge.style("visibility", "visible")
+			}
+            document.getElementById(strain).style.backgroundColor = "#5f788a";
+			selectedStrains.push(strain)
+		}
+	}
 
-//     // Toggle background color for the selected node's option
-//     var optionElement = document.getElementById(`${nodeID}_option`);
-//     optionElement.style.backgroundColor = (node.style("visibility") === "visible") ? "#ffffff" : "#5f788a";
-// }
-
-function toggleStrain(stra) {
-    var edgeList = cy.elements(`edge[strain="${stra}"]`);
-    for (var i = 0; i < edgeList.length; i++) {
-        if (edgeList[i].style("visibility") === "visible") {
-            edgeList[i].style("visibility", "hidden");
-            document.getElementById(stra).style.backgroundColor = "#5f788a";
-        } else {
-            edgeList[i].style("visibility", "visible");
-            document.getElementById(stra).style.backgroundColor = "#ffffff";
-        }
-    }
+	cy.elements(`edge[strain="${strain}"]`).forEach(function (edge) {
+		var sourceVisible = edge.source().style('visibility') === 'visible';
+		var targetVisible = edge.target().style('visibility') === 'visible';
+		if (!sourceVisible || !targetVisible) {
+			edge.style('visibility', 'hidden');
+		}
+	});
 }
 
 function changeBar(evt, display) {

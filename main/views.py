@@ -33,6 +33,8 @@ def search(request):
 					{'name': 'P.2', 'label': 'Zeta'},
 					{'name': 'EG.5', 'label': 'Omicron'},
 					{'name': 'XBB.1.16', 'label': 'Omicron'},
+					{'name': 'BA.2.86', 'label': 'Omicron'},
+					{'name': 'JN.1', 'label': 'Omicron'},
 					{'name': 'Reference', 'label': 'Wuhan'},
 					],
 		'annotations': [{'name': 'tissue_expression', 'pprint': 'Tissue Expression'}, {'name': 'localization', 'pprint': 'Localization'}, {'name': 'KEGG', 'pprint': 'KEGG'}],
@@ -85,6 +87,8 @@ def makeQuery(request):
 		'P.2',
 		'EG.5',
 		'XBB.1.16',
+		'BA.2.86',
+		'JN.1',
 		'Reference']
 
 	#add to Result
@@ -233,6 +237,8 @@ def network(request, result_id):
         'P.2': '#A30D5C',
 		'EG.5': '#b0c4b1',
 		'XBB.1.16': '#197278',
+		'BA.2.86': '#3333ff',
+		'JN.1': '#824a09',
         'Reference': '#d00000'
     }
     strain_colors = []

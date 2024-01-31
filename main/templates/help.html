@@ -7,7 +7,7 @@
         <h4>HuCoVaria Homepage</h4>
         The 'Home' page provides information about the databse and helps the user navigate to other pages of tha database. 
         <p>
-            <img src="{% static 'main/hucovaria_home.png' %}" width="70%">
+            <img src="{% static 'main/hucovariaHome.png' %}" width="70%">
         </p>
         <ol>
         
@@ -15,14 +15,14 @@
         The interactome search allows the users to obtain interactions for the available COVID strains. The users can select various human and/or COVID 
         proteins to obtain the interactions, along with different annotations and interaction type as shown below.
         <p>
-            <img src="{% static 'main/hucovaria_search.png' %}" width="70%">
+            <img src="{% static 'main/hucovariaSearch.png' %}" width="70%">
         </p>
         Below are the steps that can be followed:
         <ol>
             <li>Enter your human proteins. These values must be comma separated. Gene symbols are supported only. Type directly into the box or upload a file with your comma-separated proteins.
                 <p><img src="{% static 'main/hucovaria_home_human_proteins_upload.PNG' %}" width="25%"></p></li>
             <li>Select which strains of SARS-CoV-2 to be included in your query. More information on strains can be found at: <a href="https://cov-lineages.org/">Pango Lineages</a>.
-                <p><img src="{% static 'main/hucovaria_search_strains.png' %}" width="20%"></p></li>
+                <p><img src="{% static 'main/hucovaria_strains.png' %}" width="20%"></p></li>
             <li>Select which SARS-CoV-2 proteins to be included in your predicted interactions.
                 <p><img src="{% static 'main/hucovaria_home_covid_proteins.PNG' %}" width="25%"></p></li>
             <li>Select which annotation type to be included. More information on each annotation type can be found here:
@@ -54,7 +54,7 @@
 	<div class="container">
 	    <h4>Network View</h4>
         <p>The network view displays the interaction information as a network utilizing <a href="https://js.cytoscape.org/" target="_blank" rel="noopener noreferrer">Cytoscape.js</a> to create the network. Only the viral and host proteins and SARS-CoV-2 strains are displayed. The proteins are displayed as nodes whereas the strains are displayed as edges. A legend is provided and edges and nodes can be removed as well. Right clicking and holding on a node gives options to access more information about that protein. Here is a typical network view: </p>
-        <p><img src="{% static 'main/hucovaria_network.png' %}" width="70%"></p>
+        <p><img src="{% static 'main/hucovariaNetwork.png' %}" width="70%"></p>
         <p>Here is a snapshot of the menu provided when right-clicking and holding on a node:</p>
         <p><img src="{% static 'main/hucovaria_network_menu.PNG' %}" width="40%"></p>
 	</div>

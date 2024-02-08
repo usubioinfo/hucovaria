@@ -208,6 +208,12 @@ class TableView(generic.ListView):
 		context['title'] = f'Table View' # - {Result.objects.get(pk=result_id).id}'
 		context['subtitle'] = Result.objects.get(pk=result_id).id
 		context['result_id'] = result_id
+		df = pd.read_csv(f'media/{result_id}.csv')
+		context['interaction_count'] = len(df[['virus', 'host']].drop_duplicates())
+		context['virus_count'] = len(set(df.virus.to_list()))
+		context['host_count'] = len(set(df.host.to_list()))
+		context['interolog'] = len(df[df['interaction'] == 'Interolog'])
+		context['domain'] = len(df[df['interaction'] == 'Domain'])
 		return context
 
 def network(request, result_id):

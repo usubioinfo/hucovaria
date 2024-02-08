@@ -10,6 +10,19 @@
 </div>
 
 <div class="container">
+	<div>
+		<ul>
+			<li>
+				No. of Virus Proteins: <b>{{ virus_count }}</b>
+				| No. of Host Proteins: <b>{{ host_count }}</b>
+				| No. of Interactions: <b>{{ interaction_count }}</b>
+			</li>
+			<li>
+				No. of interolog interactions: <b>{{ interolog }}</b>
+				| No. of domain interactions: <b>{{ domain }}</b>
+			</li>
+		</ul>
+	</div>
 	<div id="table-wrapper" hidden>
 		<table class="display" id="table">
 			<thead>

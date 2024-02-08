@@ -20,7 +20,7 @@
         </div>
 	
 		<div id="cy-wrapper" class="col-sm-9">
-			<div id="cy" class="rounded border border-info"></div>
+			<div id="cy" class="rounded border border-info"><span id="noedges" style="font-size: large;font-weight: bold; visibility: hidden">No edges found</span></div>
 		</div>
 
 		<div id="cy-toolbar" class="col-sm-3 bg-steel rounded">
@@ -118,6 +118,17 @@ function toggleProtein(nodeID) {
 			return !selectedStrains.includes(strainAttributeValue);
 		}).style('visibility', 'hidden');
 	}
+	
+	visibleEdges = cy.edges().filter(function (edge, i, eles) {
+			var strainAttributeValue = edge.style("visibility");
+			return strainAttributeValue != "hidden";
+		}).length
+	console.log(visibleEdges)
+	if (visibleEdges == 0) {
+		document.getElementById("noedges").style.visibility = "visible"
+	} else {
+		document.getElementById("noedges").style.visibility = "hidden"
+	}
 }
 
 function toggleStrain(strain) {
@@ -158,6 +169,17 @@ function toggleStrain(strain) {
 			edge.style('visibility', 'hidden');
 		}
 	});
+
+	visibleEdges = cy.edges().filter(function (edge, i, eles) {
+		var strainAttributeValue = edge.style("visibility");
+		return strainAttributeValue != "hidden";
+	}).length
+	console.log(visibleEdges)
+	if (visibleEdges == 0) {
+		document.getElementById("noedges").style.visibility = "visible"
+	} else {
+		document.getElementById("noedges").style.visibility = "hidden"
+	}
 }
 
 function changeBar(evt, display) {

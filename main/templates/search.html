@@ -149,7 +149,6 @@
 			    </div>
 			</div>
 		</div>
-
 <script type="text/javascript">
 //create var with result_name
 var result_name = "{{result_name}}";
@@ -239,6 +238,9 @@ document.getElementById("myform").addEventListener("submit",
 
         //GO
         formData.append("Gene Ontology", document.getElementById("Gene Ontology").value);
+
+		//Interaction
+        formData.append("Interaction", document.querySelector('input[name="interaction"]:checked').value);
 
         //result_name
         formData.append("result_name", "{{result_name}}");

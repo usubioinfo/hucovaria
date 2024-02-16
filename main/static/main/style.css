@@ -46,6 +46,32 @@ img {
     }
 }
 
+.popper-content {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+
+.red-popper {
+    border-top: 10px solid red;
+}
+
+.blue-popper {
+    border-top: 10px solid blue;
+}
+
+.home > p {
+    text-align: justify;
+}
+
+.close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
 .#000000 {
     color: white;
 }

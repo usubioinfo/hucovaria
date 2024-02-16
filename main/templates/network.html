@@ -3,8 +3,10 @@
 
 
 {% block content %}
-	<h1>{{ title }} | <a class="btn btn-primary" href="{% url 'main:table' result_id %}">Table View</a></h1>
-	<hr>
+
+
+<h1>{{ title }} | <a class="btn btn-primary" href="{% url 'main:table' result_id %}">Table View</a></h1>
+<hr>
 <div class="container">
 	<div class="row">
         <div>
@@ -12,12 +14,29 @@
                 <li>
                     No. of Virus Proteins: <b>{{ virus_count }}</b>
                     | No. of Host Proteins: <b>{{ host_count }}</b>
-                    | No. of Interactions: <b>{{ interaction_count }}</b>
+                    | No. of Gene-Based Unique Interactions: <b>{{ interaction_count_genes }}</b>
+                    | No. of Strain-Based Unique Interactions: <b>{{ interaction_count_strains }}</b>
                 </li>
-                <li>Right click &amp; hold on nodes for external links (UniProt and NCBI)</li>
+				<li>
+					No. of Gene-Based Interolog Interactions: <b>{{ interolog_genes }}</b>
+					| No. of Gene-Based Domain Interactions: <b>{{ domain_genes }}</b>
+				</li>
+				<li>
+					No. of Strain-Based Interolog Interactions: <b>{{ interolog_strains }}</b>
+					| No. of Strain-Based Domain Interactions: <b>{{ domain_strains }}</b>
+				</li>
+                <li>Right click &amp; hold on <b>node names</b> for additional information and links.</li>
                 <li>Hold <b>Ctrl</b> and click on nodes for multi-select</li>
             </ul>
         </div>
+		<div style="display: none">
+			Node selected: <span id="nodename"></span>
+			<ul>
+				<li>Interacting partners: <span id="partners"></span></li>
+				<li>No. of interactions: <span id="interactions"></span></li>
+				<li>Strains involved: <span id="strains"></span></li>
+			</ul>
+		</div>
 	
 		<div id="cy-wrapper" class="col-sm-9">
 			<div id="cy" class="rounded border border-info"><span id="noedges" style="font-size: large;font-weight: bold; visibility: hidden">No edges found</span></div>
@@ -76,8 +95,12 @@
 <script src="https://unpkg.com/cytoscape-cola@2.2.3/cytoscape-cola.js"></script>
 <script src="{% static 'main/cytoscape-cxtmenu.js' %}"></script>
 <script src="{% static 'main/cytoscape-navigator.js' %}"></script>
+<!-- For network popups -->
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape-popper/2.0.0/cytoscape-popper.js" integrity="sha512-VOmteS5u7KekLX+qz40Iv/tktjj66Xne3rZGBJnUW9B2z2tkKakteI5pILabE4wQbbx7W7av512yk+MvsPZuMw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <script>
+
 selectedStrains = []
 selectedProteins = []
 
@@ -182,6 +205,13 @@ function toggleStrain(strain) {
 	}
 }
 
+function closePoppers() {
+	let poppers = document.getElementsByClassName("popper-content")
+	for (popper of poppers) {
+		popper.parentNode.removeChild(popper);
+	}
+}
+
 function changeBar(evt, display) {
     var i, tabcontent, tablinks;
 
@@ -261,46 +291,73 @@ var defaults = {
 var nav = cy.navigator(defaults);
 */
 
-cy.cxtmenu({
-	selector: 'node[color="blue"]',
-	commands: [
-		{
-			content: 'NCBI',
-			select: function(ele) {
-				window.open("https://www.ncbi.nlm.nih.gov/search/all/?term=" + ele.id(), "_blank");
-			}
-		},
-		{
-			content: 'GTEx',
-			select: function(ele) {
-				window.open("https://gtexportal.org/home/gene/" + ele.id(), "_blank");
-			}
-		},
-		{
-			content: 'HPA',
-			select: function(ele) {
-				window.open("https://www.proteinatlas.org/search/" + ele.id(), "_blank");
-			}
+cy.on('cxttap', 'node, node > label', function (event) {
+	var node = event.target;
+	event.preventDefault();
+	id = node.id()
+	nodeType = node.data("color") == "red" ? "Pathogen" : "Human"
+	partnerNodes = node.neighborhood('node').filter(':visible');
+	partners = partnerNodes.map(function (ele) {
+		return ele.id();
+	});	
+	interactions = node.connectedEdges()
+	strains = new Set();
+	interactions.forEach(function (edge) {
+		var strainValue = edge.data('strain');
+		if (strainValue !== undefined) {
+			strains.add(`<a href="https://cov-lineages.org/lineage.html?lineage=${strainValue}" target="_blank">${strainValue}</a>`);
 		}
-	]
+	});
+	strains = Array.from(strains);
+	links = `<b><a href="https://www.ncbi.nlm.nih.gov/search/all/?term=${id}" target="_blank">NCBI<a></b> | <b><a href="https://www.uniprot.org/uniprot/?query=${id}+AND+2697049&facets=reviewed%3Atrue" target="_blank">UniProt<a></b>`
+	if (nodeType === "Human") {
+		links = `<b><a href="https://www.ncbi.nlm.nih.gov/search/all/?term=${id}" target="_blank">NCBI<a></b> | <b><a href="https://gtexportal.org/home/gene/${id}" target="_blank">GTEx<a></b> | <b><a href="https://www.proteinatlas.org/search/${id}" target="_blank">HPA<a></b>`
+	}
+
+	closePoppers()
+
+	// Show the popper for the right-clicked node
+	activePopper = node.popper({
+		content: () => {
+		  let div = document.createElement('div');
+		  
+		  div.classList.add('popper-content');
+	  
+		  div.innerHTML = `<h5><b>${id}</b>: ${nodeType}</h5>
+		  <button type="button" class="btn-close close-button" aria-label="Close" onclick="closePoppers()"></button>
+		  ${links}<br>
+		  <b>Interacting partners:</b> ${partners.length} (${partners.join(', ')})<br>
+		  <b>Total number of interactions:</b> ${interactions.length}<br>
+		  <b>Strains involved:</b> ${strains.length} (${strains.join(', ')})<br>
+		  `
+	  
+		  document.body.appendChild(div);
+	  
+		  return div;
+		}
+	  });
+
+	if (nodeType === "Human") {
+		let poppers = document.getElementsByClassName("popper-content")
+		for (popper of poppers) {
+			popper.classList.add("blue-popper");
+		}
+	} else {
+		let poppers = document.getElementsByClassName("popper-content")
+		for (popper of poppers) {
+			popper.classList.add("red-popper");
+		}
+	}
+	
+	let update = () => {
+		activePopper.update();
+	};
+
+	node.on('position', update);
+
+	cy.on('pan zoom resize', update);
 });
 
-cy.cxtmenu({
-    selector: 'node[color="red"]',
-    commands: [
-        {
-            content: 'UniProt',
-            select: function(ele) {
-                window.open(`https://www.uniprot.org/uniprot/?query=${ele.id()}+AND+organism%3A%22Severe+acute+respiratory+syndrome+coronavirus+2+%282019-nCoV%29+%5B2697049%5D%22&sort=score`, "_blank");
-            }
-        },
-        {
-            content: 'NCBI',
-            select: function(ele) {
-                window.open(`https://www.ncbi.nlm.nih.gov/protein/?term=${ele.id()}+AND+%22Severe+acute+respiratory+syndrome+coronavirus+2%22%5BOrganism%5D`, "_blank");
-            }
-        },
-    ]
-});
 </script>
 {% endblock %}
+

@@ -11,15 +11,30 @@
 
 <div class="container">
 	<div>
+		<p>Selected parameters:</p>
+		<ul>
+			<li>Strains: <b>{{ strains | join:", " }}</b></li>
+			<li>SARS-CoV-2 proteins: <b>{{ proteins | join:", " }}</b></li>
+			<li>Annotation Type: <b>{{ annotation.annotation }}</b></li>
+			<li>Interaction Type: <b>{{ interaction }}</b></li>
+		</ul>
+	</div>
+	<div>
+		<p>Result summary:</p>
 		<ul>
 			<li>
 				No. of Virus Proteins: <b>{{ virus_count }}</b>
 				| No. of Host Proteins: <b>{{ host_count }}</b>
-				| No. of Interactions: <b>{{ interaction_count }}</b>
+				| No. of Gene-Based Unique Interactions: <b>{{ interaction_count_genes }}</b>
+				| No. of Strain-Based Unique Interactions: <b>{{ interaction_count_strains }}</b>
 			</li>
 			<li>
-				No. of interolog interactions: <b>{{ interolog }}</b>
-				| No. of domain interactions: <b>{{ domain }}</b>
+				No. of Gene-Based Interolog Interactions: <b>{{ interolog_genes }}</b>
+				| No. of Gene-Based Domain Interactions: <b>{{ domain_genes }}</b>
+			</li>
+			<li>
+				No. of Strain-Based Interolog Interactions: <b>{{ interolog_strains }}</b>
+				| No. of Strain-Based Domain Interactions: <b>{{ domain_strains }}</b>
 			</li>
 		</ul>
 	</div>

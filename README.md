@@ -8,3 +8,7 @@ HuCOVaria (Human/COVID-19 Variants Interaction) is a web-tool designed to provid
 2. Comment out all code after imports in main/views.py file. ( Everything after 'from .models import *' should be commented out.)
 3. Run 'python manage.py migrate' to apply migrations.
 4. Reverse changes in 1. and 2. (Revert urlpatterns from empty to non-empty list in main/urls.py and uncomment all functions in main/views.py)
+
+## Compile and run with Docker
+1. docker build -t hucovaria-app .
+2. docker run -p 9018:9018 hucovaria-app 

@@ -27,16 +27,13 @@ RUN pip3 install Django==3.2.12 pandas==1.3.3
 RUN sed -i '/^[\t]*path/s/^/# /' main/urls.py
 
 # Step 2: Comment out code in views.py after imports
-#RUN sed -i '/from .models import */,$ s/^/# /' main/views.py
 RUN sed -i '/from .models import */{n;:a;n;s/^/# /;ba}' main/views.py
 
 # Step 3: Run Django migrations
 RUN python3 manage.py migrate
 
 # Step 4: Revert changes in urls.py and views.py
-#RUN sed -i 's/^# \(path\)/\1/' main/urls.py
 RUN sed -i 's/^[[:space:]]*#[[:space:]]*\(path\)/\1/' main/urls.py
-#RUN sed -i '/from .models import */,$ s/^# //' main/views.py
 RUN sed -i '/from .models import */{n;:a;n;s/^# //;ta;b;:a;n;s/^# //;ba}' main/views.py
 
 # Command to run the Django development server on port 9018

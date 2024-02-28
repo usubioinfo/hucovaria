@@ -21,7 +21,7 @@ RUN git clone https://github.com/usubioinfo/hucovaria.git /project
 # Install Django 3.2.12 and any other requirements
 WORKDIR /project
 
-RUN pip3 install -r requirements.txt
+RUN pip3 install -r hucovaria/requirements.txt
 
 # Step 1: Comment urlpatterns in urls.py and uncomment the empty list
 RUN sed -i '/^[\t]*path/s/^/# /' main/urls.py

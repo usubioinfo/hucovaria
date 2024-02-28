@@ -40,4 +40,4 @@ RUN sed -i 's/^[[:space:]]*#[[:space:]]*\(path\)/\1/' main/urls.py
 RUN sed -i '/from .models import */{n;:a;n;s/^# //;ta;b;:a;n;s/^# //;ba}' main/views.py
 
 # Command to run the Django development server on port 9003
-CMD ["python3", "manage.py", "runserver", "0.0.0.0:9003"]
+CMD ["python3", "manage.py", "runserver", "0.0.0.0:9018"]

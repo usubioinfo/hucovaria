@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-57jn80e8^w@%f1s@*=ul7xsu^*x8mo0sp(gvfy+@mpr6n13o21
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['bioinfo.usu.edu', 'localhost', '127.0.0.1', 'kaabil.net']
+ALLOWED_HOSTS = ['kaabil.net', 'localhost', '127.0.0.1', 'kaabil.net']
 
 
 # Application definition

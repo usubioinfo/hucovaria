@@ -2,6 +2,7 @@
 
 from django.db import migrations
 import pandas as pd
+import math
 
 def populate_db(apps, schema_editor):
     Interaction = apps.get_model('main', 'Interaction')
@@ -10,7 +11,7 @@ def populate_db(apps, schema_editor):
     KEGG = apps.get_model('main', 'KEGG')
 
     #interactions
-    df = pd.read_csv('files/master_slim.csv')
+    df = pd.read_csv('files/master_slim.csv', na_filter=False)
     df_dict = df.to_dict('records')
     toAdd = []
     for row in df_dict:

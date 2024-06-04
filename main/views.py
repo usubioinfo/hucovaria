@@ -10,6 +10,7 @@ import os
 import pandas as pd
 import json
 import mimetypes
+import subprocess
 
 from .models import *
 
@@ -72,17 +73,17 @@ def getInteractionQuerySet(result_id):
     strainsInteraction = [s.content for s in result.strainresult_set.all()]
     interactionType = str(result.interactionresult_set.first())
     
-    qs = Interaction.objects.filter(virus__in=virus_l, host__in=host_l, strain__in=strainsInteraction)
+    qs = Interaction.objects.filter(virus__iregex=r'(' + '|'.join(virus_l) + ')', host__in=host_l, strain__in=strainsInteraction)
     
     if interactionType != 'Combined':
         qs = qs.filter(interaction=interactionType)
+    else:
+        qs = qs.filter(interaction__in=['Domain', 'Interolog'])
 
     return qs
 
 def makeQuery(request):
-    
     newID = request.POST.get('result_name')
-
     #save form data
     formData = {key: request.POST.get(key) for key in request.POST.keys()}
     jsonData = json.dumps(formData, indent=2)
@@ -121,6 +122,20 @@ def makeQuery(request):
     newInteractionResult = InteractionResult(result=newResult, content=interactionType)
     newInteractionResult.save()
 
+    # if interactionType == "GOSemSim":
+    #     for strain in strains:
+    #         command = f"/opt/miniconda3/envs/ml-gpu/bin/python3 gosemsim.py --method {formData['gosimmethod']} --score {formData['gosimscoring']} \
+    #             --host Homo_sapiens --pathogen {strain} --t {formData['gosimmin']} \
+    #             --hgenes {formData['human_prots_text']} --pgenes {formData["hidden_sars_prots"]} "
+    #         output = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
+
+    # elif interactionType == "Phylo-profiling":
+    #     for strain in strains:
+    #         command = f"/opt/miniconda3/envs/ml-gpu/bin/python3 phylopred.py --gp {formData['phylopool']} --h Homo_sapiens --p {strain} --hg {formData['human_prots_text']} \
+    #             --pg {formData["hidden_sars_prots"]} --hi 80 --hc 80 --he 1e-20 --pi 80 --pc 80 --pe 1e-20 --t {formData['phylomin']}"
+    #         output = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
+
+    # else:
     Interaction_qs = getInteractionQuerySet(newResult.id)
     df = pd.DataFrame(Interaction_qs.values())
     df.to_csv(filename, index=None)
@@ -222,15 +237,20 @@ class TableView(generic.ListView):
         context['title'] = f'Table View' # - {Result.objects.get(pk=result_id).id}'
         context['subtitle'] = Result.objects.get(pk=result_id).id
         context['result_id'] = result_id
-        df = pd.read_csv(f'media/{result_id}.csv')
+        try:
+            df = pd.read_csv(f'media/{result_id}.csv')
+        except:
+            df = pd.DataFrame(columns=['virus', 'host', 'strain', 'interaction'])
         context['interaction_count_genes'] = len(df[['virus', 'host']].drop_duplicates())
         context['interaction_count_strains'] = len(df[['virus', 'host', 'strain']].drop_duplicates())
         context['virus_count'] = len(set(df.virus.to_list()))
         context['host_count'] = len(set(df.host.to_list()))
         context['interolog_genes'] = len(df[df['interaction'] == 'Interolog'][['virus', 'host']].drop_duplicates())
         context['domain_genes'] = len(df[df['interaction'] == 'Domain'][['virus', 'host']].drop_duplicates())
+        context['ml_genes'] = len(df[df['interaction'] == 'Machine learning-based'][['virus', 'host']].drop_duplicates())
         context['interolog_strains'] = len(df[df['interaction'] == 'Interolog'][['virus', 'host', 'strain']].drop_duplicates())
         context['domain_strains'] = len(df[df['interaction'] == 'Domain'][['virus', 'host', 'strain']].drop_duplicates())
+        context['ml_strains'] = len(df[df['interaction'] == 'Machine learning-based'][['virus', 'host', 'strain']].drop_duplicates())
         return context
 
 def network(request, result_id):
@@ -262,8 +282,10 @@ def network(request, result_id):
     context['interaction_count_strains'] = len(df[['virus', 'host', 'strain']].drop_duplicates())
     context['interolog_genes'] = len(df[df['interaction'] == 'Interolog'][['virus', 'host']].drop_duplicates())
     context['domain_genes'] = len(df[df['interaction'] == 'Domain'][['virus', 'host']].drop_duplicates())
+    context['ml_genes'] = len(df[df['interaction'] == 'Machine learning-based'][['virus', 'host']].drop_duplicates())
     context['interolog_strains'] = len(df[df['interaction'] == 'Interolog'][['virus', 'host', 'strain']].drop_duplicates())
     context['domain_strains'] = len(df[df['interaction'] == 'Domain'][['virus', 'host', 'strain']].drop_duplicates())
+    context['ml_strains'] = len(df[df['interaction'] == 'Machine learning-based'][['virus', 'host', 'strain']].drop_duplicates())
     context['virus_count'] = len(set(df.virus.to_list()))
     context['host_count'] = len(set(df.host.to_list()))
     context['strain_colors'] = strains

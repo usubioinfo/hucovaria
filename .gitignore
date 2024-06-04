@@ -3,3 +3,4 @@ db.sqlite3
 media/*.csv
 media/*.json
 *.pyc
+phylo/*

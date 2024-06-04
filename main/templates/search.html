@@ -106,10 +106,110 @@
 
 						<div class="form-check">
 							<input class="form-check-input" type="radio" name="interaction" id="combined" value="Combined" checked>
-							<label class="form-check-label" for="combined">Combined</label>
+							<label class="form-check-label" for="combined">Interolog + Domain</label>
+						</div>
+
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="interaction" id="ml" value="Machine learning-based">
+							<label class="form-check-label" for="ml">Machine learning-based</label>
+						</div>
+
+						<!-- <div class="form-check">
+							<input class="form-check-input" type="radio" name="interaction" id="gosim" value="GOSemSim">
+							<label class="form-check-label" for="gosim">GO Sem Similarity</label>
+						</div>
+
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="interaction" id="phylo" value="Phylo-profiling">
+							<label class="form-check-label" for="phylo">Phylo-profiling</label>
+						</div> -->
+					</div>
+					<hr>
+					<div id="gosimdiv" style="display: none">
+						<div id="gosimmethodpicker">
+							<h4>Method</h4>
+							<div>
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="gosimmethod" id="wang" value="Wang" checked>
+									<label class="form-check-label" for="wang">Wang</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="gosimmethod" id="lca" value="LCA">
+									<label class="form-check-label" for="lca">LCA</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="gosimmethod" id="resnik" value="Resnik">
+									<label class="form-check-label" for="resnik">Resnik</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="gosimmethod" id="lin" value="Lin">
+									<label class="form-check-label" for="lin">Lin</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="gosimmethod" id="pekar" value="Pekar">
+									<label class="form-check-label" for="pekar">Pekar</label>
+								</div>
+							</div>
+						</div>
+						<br>
+						<div id="gosimscoringpicker">
+							<h4>Scoring</h4>
+							<div>
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="gosimscoring" id="bestmatch" value="Best-match average">
+									<label class="form-check-label" for="bestmatch">Best-match average</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="gosimscoring" id="maximum" value="Maximum" checked>
+									<label class="form-check-label" for="maximum">Maximum</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="gosimscoring" id="average" value="Average">
+									<label class="form-check-label" for="average">Average</label>
+								</div>
+							</div>
+						</div>
+						<br>
+						<div id="gosimminpicker">
+							<h4>Threshold (Min. Similarity)</h4>
+							<div class="range-wrap">
+								<input type="range" class="range" min="1" max="100" value="50" id="gosimmin">
+								<span>0</span>
+								<span class="pull-right">100</span>
+								<output class="bubble"></output>
+							</div>
 						</div>
 					</div>
 
+					<div id="phylodiv" style="display: none">
+						<div id="phylopoolpicker">
+							<h4>Genome Pool</h4>
+							<div>
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="phylopool" id="up82" value="UP82" checked>
+									<label class="form-check-label" for="wang">up82</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="phylopool" id="bc18" value="BC18">
+									<label class="form-check-label" for="bc18">BC18</label>
+								</div>
+								<div class="form-check">
+									<input class="form-check-input" type="radio" name="phylopool" id="protphylo490" value="protphylo490">
+									<label class="form-check-label" for="protphylo490">ProtPhylo490</label>
+								</div>
+							</div>
+						</div>
+						<br>
+						<div id="phylominpicker">
+							<h4>Threshold (Min. Similarity)</h4>
+							<div class="range-wrap">
+								<input type="range" class="range" min="1" max="100" value="50" id="phylomin">
+								<span>0</span>
+								<span class="pull-right">100</span>
+								<output class="bubble"></output>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div>
@@ -241,6 +341,21 @@ document.getElementById("myform").addEventListener("submit",
 
 		//Interaction
         formData.append("Interaction", document.querySelector('input[name="interaction"]:checked').value);
+
+		//GOSemSim method
+        formData.append("GOSimMethod", document.querySelector('input[name="gosimmethod"]:checked').value);
+
+		//GOSemSim scoring
+        formData.append("GOSimScoring", document.querySelector('input[name="gosimscoring"]:checked').value);
+
+		//GOSemSim min. similarity
+        formData.append("GOSimMin", document.getElementById('gosimmin').value);
+
+		//Phylo genome pool
+		formData.append("PhyloPool", document.querySelector('input[name="phylopool"]:checked').value);
+
+		//Phylo min. similarity
+		formData.append("PhyloMin", document.getElementById('phylomin').value);
 
         //result_name
         formData.append("result_name", "{{result_name}}");
@@ -381,6 +496,49 @@ function handleFileLoad(event) {
     console.log(event);
     document.getElementById("human_prots_text").textContent = event.target.result;
 }
+
+// Threshold range pickers
+function setBubble(range, bubble) {
+  const val = range.value;
+  const min = range.min ? range.min : 0;
+  const max = range.max ? range.max : 100;
+  const newVal = Number(((val - min) * 100) / (max - min));
+  bubble.innerHTML = val;
+
+  bubble.style.left = `calc(${newVal}% + (${8 - newVal * 0.15}px))`;
+}
+
+var slider = document.getElementById("gosimmin");
+
+const allRanges = document.querySelectorAll(".range-wrap");
+allRanges.forEach(wrap => {
+  const range = wrap.querySelector(".range");
+  const bubble = wrap.querySelector(".bubble");
+
+  range.addEventListener("input", () => {
+    setBubble(range, bubble);
+  });
+  setBubble(range, bubble);
+});
+
+// Hide/show GOsim and phylo parameters
+const radioButtons = document.querySelectorAll('input[name="interaction"]');
+const gosimDiv = document.getElementById('gosimdiv');
+const phyloDiv = document.getElementById('phylodiv');
+radioButtons.forEach(radio => {
+	radio.addEventListener('change', function() {
+		if (document.getElementById('gosim').checked) {
+			gosimDiv.style.display = 'block';
+			phyloDiv.style.display = 'none';
+		} else if (document.getElementById('phylo').checked) {
+			phyloDiv.style.display = 'block';
+			gosimDiv.style.display = 'none';
+		} else {
+			gosimDiv.style.display = 'none';
+			phyloDiv.style.display = 'none';
+		}
+	});
+});
 
 </script>
 

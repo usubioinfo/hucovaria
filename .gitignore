@@ -4,3 +4,4 @@ media/*.csv
 media/*.json
 *.pyc
 phylo/*
+files/master_slim.csv

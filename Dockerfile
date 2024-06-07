@@ -24,7 +24,7 @@ WORKDIR /project
 #RUN pip3 install -r hucovaria/requirements.txt
 RUN pip3 install Django==3.2.12 pandas==1.3.3
 
-RUN tar -zxvf files/master_slim.tar.gz -o files/
+RUN tar -zxvf files/master_slim.tar.gz -C files/
 
 # Step 1: Comment urlpatterns in urls.py and uncomment the empty list
 RUN sed -i '/^[\t]*path/s/^/# /' main/urls.py
